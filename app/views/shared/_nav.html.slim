@@ -1,0 +1,23 @@
+.nav
+  .logo
+    = image_tag "logo.png"
+    .title ethereal
+  .nav-links
+    - if current_page?(root_path)
+      = link_to t('.home'), root_url, class: 'selected'
+      = link_to t('.search'), main_search_path
+      = link_to t('.contact_me'), main_contact_me_path
+    - elsif current_page?(main_search_path)
+      = link_to t('.home'), root_url
+      = link_to t('.search'), main_search_path, class: 'selected'
+      = link_to t('.contact_me'), main_contact_me_path
+    - elsif current_page?(main_contact_me_path)
+      = link_to t('.home'), root_url
+      = link_to t('.search'), main_search_path
+      = link_to t('.contact_me'), main_contact_me_path, class: 'selected'
+    - else
+      = link_to t('.home'), root_url
+      = link_to t('.search'), main_search_path
+      = link_to t('.contact_me'), main_contact_me_path
+  .lang
+    = t('.eng')
