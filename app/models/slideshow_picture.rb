@@ -1,3 +1,3 @@
 class SlideshowPicture < ApplicationRecord
-  mount_uploader :picture, PictureUploader
+  mount_uploader :image, ImageUploader
 end

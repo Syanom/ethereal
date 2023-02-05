@@ -1,0 +1,8 @@
+.slideshow_picture  
+  = image_tag slideshow_picture.image.url
+  .checkbox
+    = t(".active")
+    = check_box_tag :active, slideshow_picture.active, slideshow_picture.active, disabled: true
+  .admin_links
+    = link_to t('.edit'), edit_admin_slideshow_picture_path(slideshow_picture)
+    = link_to t('.delete'), admin_slideshow_picture_path(slideshow_picture), method: :delete

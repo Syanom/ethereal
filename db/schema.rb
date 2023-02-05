@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2023_02_05_115849) do
 
   create_table "slideshow_pictures", force: :cascade do |t|
     t.boolean "active"
-    t.string "picture"
+    t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
