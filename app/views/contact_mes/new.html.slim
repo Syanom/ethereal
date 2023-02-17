@@ -1,0 +1,15 @@
+= form_for @contact_me, local: true do |form|
+  .text-field
+    = form.label :phone_number
+    = form.text_field :phone_number
+
+  .text-field
+    = form.label :email
+    = form.text_field :email
+
+  .whatsapp
+    = form.check_box :contact_with_whatsapp, class: :check
+    = form.label :contact_with_whatsapp
+  
+  .last
+    = form.submit

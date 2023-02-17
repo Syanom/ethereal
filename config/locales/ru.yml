@@ -5,3 +5,13 @@ ru:
       search: Каталог
       contact_me: Свяжитесь со мной
 
+  helpers:
+    submit:
+      contact_me:
+        create: Свяжитесь со мной!
+    label:
+      contact_me: 
+        contact_with_whatsapp: Пишите в whatsapp
+        email: Email
+        phone_number: Номер телефона
+
