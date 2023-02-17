@@ -1,13 +1,15 @@
 class ContactMesController < ApplicationController
   def new
-    @contact_me = ContactMe.new
+    @contact_me = ContactMe.new unless @contact_me
   end
 
   def create
     @contact_me = ContactMe.new(contact_me_params)
-    @contact_me.save
-
-    redirect_to root_path
+    if @contact_me.save
+      redirect_to root_path
+    else
+      redirect_to new_contact_me_path
+    end
   end
 
   private
