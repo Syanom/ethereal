@@ -20,4 +20,9 @@
       = link_to t('.search'), search_index_path
       = link_to t('.contact_me'), contact_me_index_path
   .lang
-    = t('.eng')
+    .current-lang
+      | Eng
+      ul class="lang-options hidden"
+        li class="lang-option" id="en" En
+        li class="lang-option" id="ru" Ru
+        li class="lang-option" id="tr" Tr

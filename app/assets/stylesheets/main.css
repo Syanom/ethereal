@@ -1,6 +1,7 @@
 html {
   background-color: #292929;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 *,
@@ -9,9 +10,16 @@ html {
   box-sizing: inherit;
 }
 
+.hidden {
+  display: none;
+}
+
 .nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  height: 80px;
 }
 
 .logo {
@@ -19,20 +27,17 @@ html {
   flex-direction: row;
   align-items: center;
   color: white;
-  font-family: "League Spartan";
-  font-size: 5vw;
-  margin-left: 1vw;
-  margin-right: 15vw;
+  margin-left: 2vw;
+  font-size: 28px;
 }
 
 .logo img {
-  width: 10vw;
+  height: 80px;
 }
 
 .nav-links {
   display: flex;
   flex-direction: row;
-  font-size: 2vw;
   align-items: baseline;
   margin-top: 2vw;
 }
@@ -46,12 +51,28 @@ html {
 }
 
 .nav-links a.selected {
-  border-bottom: 0.3vw solid #B44857;
+  border-bottom: 3px solid #B44857;
 }
 
 .lang {
   color: white;
-  margin-top: 2vw;
-  margin-left: 20vw;
-  font-size: 2vw;
+  text-align: right;
+  margin-right: 2vw;
+  margin-top: 1vw;
+  cursor: pointer;
+}
+
+.lang-options {
+  text-align: left;
+  position: absolute;
+  margin-top: 2px;
+  right: 1%;
+}
+
+.lang-option {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #1c1c1c;
 }
