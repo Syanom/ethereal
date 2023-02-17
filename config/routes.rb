@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root to: 'main#home'
-  get 'main/contact_me'
-  get 'main/search'
+  resources :contact_me, only: :index
+  resources :search, only: :index
 
   namespace :admin do
     resources :slideshow_pictures
