@@ -6,19 +6,19 @@
     - if current_page?(root_path)
       = link_to t('.home'), root_url, class: 'selected'
       = link_to t('.search'), search_index_path
-      = link_to t('.contact_me'), contact_me_index_path
+      = link_to t('.contact_me'), new_contact_me_path
     - elsif current_page?(search_index_path)
       = link_to t('.home'), root_url
       = link_to t('.search'), search_index_path, class: 'selected'
-      = link_to t('.contact_me'), contact_me_index_path
-    - elsif current_page?(contact_me_index_path)
+      = link_to t('.contact_me'), new_contact_me_path
+    - elsif current_page?(new_contact_me_path)
       = link_to t('.home'), root_url
       = link_to t('.search'), search_index_path
-      = link_to t('.contact_me'), contact_me_index_path, class: 'selected'
+      = link_to t('.contact_me'), new_contact_me_path, class: 'selected'
     - else
       = link_to t('.home'), root_url
       = link_to t('.search'), search_index_path
-      = link_to t('.contact_me'), contact_me_index_path
+      = link_to t('.contact_me'), new_contact_me_path
   .lang
     .current-lang
       | Eng
