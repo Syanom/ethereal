@@ -35,7 +35,7 @@ input {
 .last input {
   border: 0px solid #B44857;
   background-color: #77313b;
-  color: white;
+  color: rgb(233, 233, 233);
 }
 
 .check {

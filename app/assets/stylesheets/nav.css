@@ -5,7 +5,7 @@
   font-size: 20px;
   height: 80px;
   max-height: 15vh;
-  color: white;
+  color: #d9d9d9;
 }
 
 .logo {
@@ -28,7 +28,7 @@
 }
 
 .nav-links a {
-  color: white;
+  color: #d9d9d9;
   text-decoration: none;
   padding-left: 2vw;
   padding-right: 2vw;

@@ -18,7 +18,8 @@ ActiveRecord::Schema.define(version: 2023_02_17_140322) do
   create_table "contact_mes", force: :cascade do |t|
     t.string "phone_number"
     t.string "email"
-    t.boolean "contact_with_whatsapp"
+    t.boolean "contact_with_whatsapp", default: false
+    t.boolean "contacted", default: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
