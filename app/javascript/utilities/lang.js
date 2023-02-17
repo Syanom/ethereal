@@ -4,6 +4,7 @@ document.addEventListener('turbolinks:load', function () {
   document.querySelectorAll(".lang-option").forEach(btn => {
     btn.addEventListener('click', changeLang)
   });
+  window.onclick = closeDropdown
 })
 
 function setCurrentLanguage() {
@@ -13,7 +14,7 @@ function setCurrentLanguage() {
 }
 
 function handleDropdown() {
-  document.querySelector(".lang-options").classList.toggle("hidden");
+  document.querySelector(".lang-options").classList.toggle("hidden")
 }
 
 function changeLang(e) {
@@ -30,4 +31,13 @@ function getCurrentLang() {
   }
 
   return current_lang
+}
+
+function closeDropdown(event) {
+  if (!event.target.matches('.current-lang')) {
+    langSelect = document.querySelector(".lang-options")
+    if (!(langSelect.classList.contains('hidden'))) {
+      langSelect.classList.add('hidden');
+    }
+  }
 }

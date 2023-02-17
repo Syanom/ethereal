@@ -13,7 +13,7 @@
       = link_to t('.contact_me'), contact_me_index_path
     - elsif current_page?(contact_me_index_path)
       = link_to t('.home'), root_url
-      = link_to t('.search'), search_path
+      = link_to t('.search'), search_index_path
       = link_to t('.contact_me'), contact_me_index_path, class: 'selected'
     - else
       = link_to t('.home'), root_url
