@@ -4,6 +4,10 @@ ru:
       home: Главная
       search: Каталог
       contact_me: Свяжитесь со мной
+  
+  contact_mes:
+    create:
+      success: Мы с вами свяжимся!
 
   helpers:
     submit:

@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  color: white;
+  color: #d9d9d9;
 }
 
 *,
@@ -15,10 +15,27 @@ body {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 .page-wrap {
   min-height: 80vh;
   padding-bottom: 20px;
+}
+
+.alert {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin: -40px 0 0 -117px;
+  background-color: #1d1d1d;
+  border-radius: 5px;
+  padding: 30px;
+  color: #a6a6a6;
+  display: flex;
+}
+
+.close {
+  margin-left: 10px;
+  cursor: pointer;
 }
