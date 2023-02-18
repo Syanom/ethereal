@@ -15,6 +15,11 @@
       = link_to t('.home'), root_url
       = link_to t('.search'), search_index_path
       = link_to t('.contact_me'), new_contact_me_path, class: 'selected'
+    - elsif request.url.include?('admin')
+      = link_to t('.home'), root_url
+      = link_to t('.search'), search_index_path
+      = link_to t('.contact_me'), new_contact_me_path
+      = link_to t('.admin'), admin_slideshow_pictures_path, class: 'selected'
     - else
       = link_to t('.home'), root_url
       = link_to t('.search'), search_index_path
