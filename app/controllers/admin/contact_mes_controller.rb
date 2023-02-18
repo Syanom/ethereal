@@ -5,9 +5,10 @@ class Admin::ContactMesController < ApplicationController
     @contact_mes = ContactMe.all.order(created_at: :desc)
   end
 
-  def update
+  def contacted
     @contact_me = ContactMe.find(params[:id])
-    @contact_me.update(slideshow_picture_params)
+    contacted = @contact_me.contacted ? false : true
+    @contact_me.update(contacted: contacted)
 
     redirect_to admin_contact_mes_path
   end
@@ -17,11 +18,5 @@ class Admin::ContactMesController < ApplicationController
     @contact_me.destroy
 
     redirect_to admin_contact_mes_path
-  end
-
-  private
-  
-  def slideshow_picture_params
-    params.require(:contact_me).permit(:id, :contacted)
   end
 end

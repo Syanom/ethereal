@@ -1,11 +1,17 @@
 .admin-contact-me
-  - if contact_me.email.present?
-    .admin-email
-      = t('.email')
-      = contact_me.email
-  - if contact_me.phone_number.present?
-    .admin-phone
-      = t('.phone_number')
-      = contact_me.phone_number
-  - if contact_me.contact_with_whatsapp && contact_me.phone_number.present?
-    .admin-whatsapp = t('.contact_with_whatsapp')
+  .admin-contact-info
+    - if contact_me.email.present?
+      .admin-email
+        = t('.email')
+        = contact_me.email
+    - if contact_me.phone_number.present?
+      .admin-phone
+        = t('.phone_number')
+        = contact_me.phone_number
+    - if contact_me.contact_with_whatsapp && contact_me.phone_number.present?
+      .admin-whatsapp = t('.contact_with_whatsapp')
+  .admin-contacted
+    = link_to t(".contacted"), contacted_admin_contact_me_path(contact_me), method: :patch
+    = check_box_tag :contacted, contact_me.contacted, contact_me.contacted, disabled: true, class: 'check'
+  .admin-delete
+    = link_to t(".delete"), admin_contact_me_path(contact_me), method: :delete
