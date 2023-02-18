@@ -35,8 +35,8 @@
   width: 100%;
 }
 
-.admin-contact-me.email,
-.admin-contact-me.whatsapp,
-.admin-contact-me.phone-number {
+.admin-email,
+.admin-phone,
+.admin-whatsapp {
   margin: 3px;
 }
