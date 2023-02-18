@@ -7,6 +7,7 @@ ru:
       admin: Админ
     admin_menu:
       slideshow_pictures: Слайдшоу
+      contact_mes: Запросы на звонок
 
   contact_mes:
     create:
@@ -35,3 +36,8 @@ ru:
         active: Слайд активен
         edit: Изменить
         delete: Удалить
+    contact_mes:
+      contact_me:
+        email: "Email: "
+        phone_number: "Номер телефона: "
+        contact_with_whatsapp: Свяжитесь по whatsapp

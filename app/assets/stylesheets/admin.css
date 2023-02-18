@@ -21,3 +21,22 @@
 .pre-footer {
   margin-bottom: 30px;
 }
+
+.contact-mes {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.admin-contact-me {
+  margin: 15px;
+  padding: 10px;
+  background-color: #232323;
+  width: 100%;
+}
+
+.admin-contact-me.email,
+.admin-contact-me.whatsapp,
+.admin-contact-me.phone-number {
+  margin: 3px;
+}

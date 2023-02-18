@@ -1,0 +1,11 @@
+.admin-contact-me
+  - if contact_me.email.present?
+    .email
+      = t('.email')
+      = contact_me.email
+  - if contact_me.phone_number.present?
+    .phone-number
+      = t('.phone_number')
+      = contact_me.phone_number
+  - if contact_me.contact_with_whatsapp && contact_me.phone_number.present?
+    .whatsapp = t('.contact_with_whatsapp')

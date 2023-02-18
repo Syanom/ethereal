@@ -5,5 +5,6 @@ Rails.application.routes.draw do
 
   namespace :admin do
     resources :slideshow_pictures
+    resources :contact_mes, only: %i[index update destroy]
   end
 end
