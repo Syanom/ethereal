@@ -2,7 +2,7 @@ class Admin::ContactMesController < ApplicationController
   layout 'admin'
 
   def index
-    @contact_mes = ContactMe.all.order(created_at: :desc)
+    @contact_mes = ContactMe.all.order(contacted: :asc, created_at: :desc)
   end
 
   def contacted
