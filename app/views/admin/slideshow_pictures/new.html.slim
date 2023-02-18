@@ -1,9 +1,11 @@
-= form_with model: [:admin, @slideshow_picture], local: true do |f|
-  = f.label :active
-  = f.check_box :active
+= form_with model: [:admin, @slideshow_picture], local: true, class: 'admin-form' do |f|
+  = image_tag @slideshow_picture.image.url, class: "admin-form-avatar" if @slideshow_picture.image?
+  .admin-check
+    = f.label :active
+    = f.check_box :active, class: 'check'
+  .file
+    = f.hidden_field :image_cache
+    = f.file_field :image, class: "admin-form-file"
 
-  = image_tag @slideshow_picture.image.url, class: "admin-form-avatar", style: 'border-radius: 50%;' if @slideshow_picture.image?
-  = f.hidden_field :image_cache
-  = f.file_field :image, class: "admin-form-file"
-
-  = f.submit
+  .submit
+    = f.submit t('.submit')

@@ -1,0 +1,53 @@
+.slideshow_pictures {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slideshow_pictures h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.slideshow_pictures {
+  width: 85%;
+}
+
+.slideshow_picture {
+  text-align: center;
+  width: 90%;
+  border-radius: 10px;
+  background-color: #1d1d1d;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.slideshow_picture img {
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+.slideshow_pictures a {
+  color: #d9d9d9;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.admin-form {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-check {
+  margin: 15px;
+  margin-bottom: 0px;
+}
+
+.file {
+  margin: 15px
+}

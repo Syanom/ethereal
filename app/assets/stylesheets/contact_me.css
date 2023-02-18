@@ -9,7 +9,7 @@
   color: #a6a6a6;
 }
 
-.last {
+.submit {
   margin-bottom: 0px !important;
 }
 
@@ -32,7 +32,7 @@ input {
   border-radius: 3px;
 }
 
-.last input {
+.submit input {
   border: 0px solid #B44857;
   background-color: #77313b;
   color: rgb(233, 233, 233);

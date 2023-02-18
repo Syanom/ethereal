@@ -1,0 +1,19 @@
+.admin-wrap {
+  display: flex;
+}
+
+.admin-menu a {
+  color: #d9d9d9;
+  margin: 15px;
+  background-color: #232323;
+  width: 90%;
+  display: flex;
+  border: 1px solid rgb(30, 30, 30);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.admin-menu {
+  width: 15%;
+}

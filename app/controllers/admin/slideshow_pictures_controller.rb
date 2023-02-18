@@ -1,4 +1,6 @@
 class Admin::SlideshowPicturesController < ApplicationController
+  layout 'admin'
+
   def index
     @slideshow_pictures = SlideshowPicture.all
   end

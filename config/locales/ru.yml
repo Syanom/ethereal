@@ -4,7 +4,9 @@ ru:
       home: Главная
       search: Каталог
       contact_me: Свяжитесь со мной
-  
+    admin_menu:
+      slideshow_pictures: Слайдшоу
+
   contact_mes:
     create:
       success: Мы с вами свяжимся!
@@ -18,4 +20,17 @@ ru:
         contact_with_whatsapp: Пишите в whatsapp
         email: Email
         phone_number: Номер телефона
+      slideshow_picture:
+        active: Слайд активен
 
+  admin:
+    slideshow_pictures:
+      index:
+        slideshow: Слайдшоу
+        create: Добавить
+      new:
+        submit: Сохранить слайд
+      slideshow_picture:
+        active: Слайд активен
+        edit: Изменить
+        delete: Удалить
