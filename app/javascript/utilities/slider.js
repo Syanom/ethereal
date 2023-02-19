@@ -5,12 +5,16 @@ document.addEventListener('turbolinks:load', function () {
 })
 
 function changeSlide(e) {
+  slider = document.querySelector('.slider')
+  if (slider.classList.contains('scrolling')) return
+  slider.classList.add('scrolling')
   let offset = e.target.classList.contains('arrow-left') ? -1 : 1
   let slides = document.querySelector('.slides')
-  console.log(slides.scrollLeft)
+  console.log(slides.parentElement.scrollLeft)
   slides.parentElement.scrollTo({
     top: 0,
     left: slides.parentElement.scrollLeft + document.body.clientWidth * offset,
     behavior: 'smooth'
   })
+  setTimeout(() => slider.classList.remove('scrolling'), 1000)
 }
