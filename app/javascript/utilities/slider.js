@@ -10,7 +10,6 @@ function changeSlide(e) {
   slider.classList.add('scrolling')
   let offset = e.target.classList.contains('arrow-left') ? -1 : 1
   let slides = document.querySelector('.slides')
-  console.log(slides.parentElement.scrollLeft)
   slides.parentElement.scrollTo({
     top: 0,
     left: slides.parentElement.scrollLeft + document.body.clientWidth * offset,
