@@ -10,34 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_02_19_180559) do
+ActiveRecord::Schema.define(version: 2023_02_17_140322) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "adds", force: :cascade do |t|
-    t.boolean "flat"
-    t.boolean "house"
-    t.boolean "for_sale"
-    t.boolean "for_rent"
-    t.integer "square"
-    t.integer "rooms"
-    t.integer "living_rooms"
-    t.integer "building_age"
-    t.integer "number_of_floors"
-    t.string "heating"
-    t.integer "number_of_bathrooms"
-    t.boolean "furnished"
-    t.string "user_status"
-    t.boolean "credit_available"
-    t.boolean "video_call_available"
-    t.boolean "active", default: true
-    t.text "description"
-    t.string "main_image"
-    t.string "images"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
 
   create_table "contact_mes", force: :cascade do |t|
     t.string "phone_number"
