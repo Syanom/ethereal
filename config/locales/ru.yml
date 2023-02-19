@@ -1,4 +1,9 @@
 ru:
+  main:
+    home:
+      slogan: The infrastructure of a five-star hotel and some social privileges for owners allow you to enjoy luxury in the bosom of nature at any time of the year, spend more time with your family and lead a healthy lifestyle on the territory of the complex.
+      we_will_make_your_life: Мы сделаем вашу жизнь
+      comfortable: comfortable_ru.png
   shared:
     nav:
       home: Главная

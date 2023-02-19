@@ -9,6 +9,7 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import "../utilities/lang"
 import "../utilities/close"
+import "../utilities/slider"
 
 Rails.start()
 Turbolinks.start()
