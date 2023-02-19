@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   namespace :admin do
     resources :slideshow_pictures
+    resources :adds
     resources :contact_mes, only: %i[index destroy] do
       patch 'contacted', on: :member
     end
