@@ -1,7 +1,4 @@
-class Admin::SlideshowPicturesController < ApplicationController
-  http_basic_authenticate_with name: Rails.application.secrets.user, password: Rails.application.secrets.password
-  layout 'admin'
-
+class Admin::SlideshowPicturesController < AdminController
   def index
     @slideshow_pictures = SlideshowPicture.all
   end

@@ -1,7 +1,4 @@
-class Admin::ContactMesController < ApplicationController
-  http_basic_authenticate_with name: Rails.application.secrets.user, password: Rails.application.secrets.password
-  layout 'admin'
-
+class Admin::ContactMesController < AdminController
   def index
     @contact_mes = ContactMe.all.order(contacted: :asc, created_at: :desc)
   end

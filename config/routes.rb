@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   resources :contact_mes, only: %i[new create]
   resources :adds, only: :index
+  resources :admin, only: :index
 
   namespace :admin do
     resources :slideshow_pictures
