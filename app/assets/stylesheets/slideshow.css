@@ -1,23 +1,19 @@
-.slide img {
-  width: 100vw;
+.slide {
+  width: 100%;
   object-fit: cover;
   object-position: center;
   height: 84vh;
-}
-
-.slide {
   transition: 2s;
-}
-
-.slider {
-  width: 100%;
-  height: 84vh;
-  overflow: hidden;
 }
 
 .slides {
   display: flex;
   height: 84vh;
+  width: 100vw;
+}
+
+.slider {
+  overflow-x: hidden;
 }
 
 .left-panel {
@@ -34,6 +30,7 @@
   top: 50vh;
   left: 31vw;
   cursor: pointer;
+  width: 4vw;
 }
 
 .arrow-right {
@@ -41,14 +38,10 @@
   top: 50vh;
   right: 1vw;
   cursor: pointer;
+  width: 4vw;
 }
 
 .arrow-left:hover,
 .arrow-right:hover {
   filter: brightness(200%);
-}
-
-.arrow-left img,
-.arrow-right img {
-  width: 4vw;
 }

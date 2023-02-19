@@ -1,15 +1,12 @@
 .slider
   div class="slides" style="width: #{@width}"
-    - @slideshow_pictures.each do |picture|
-      .slide
-        = image_tag picture.image.url, class: "slideshow-image"
+    - @slideshow_pictures.each_with_index do |picture|
+      = image_tag picture.image.url, class: "slide"
 
 .left-panel
   .intro = t('.we_will_make_your_life')
   .comfortable = image_tag t('.comfortable')
   .text = t('.slogan')
 
-.arrow-left
-  = image_tag 'arrow_left.png'
-.arrow-right
-  = image_tag 'arrow_right.png'
+= image_tag 'arrow_left.png', class: "arrow-left"
+= image_tag 'arrow_right.png', class: "arrow-right"
