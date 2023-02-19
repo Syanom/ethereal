@@ -1,4 +1,5 @@
 class Admin::SlideshowPicturesController < ApplicationController
+  http_basic_authenticate_with name: Rails.application.secrets.user, password: Rails.application.secrets.password
   layout 'admin'
 
   def index
@@ -40,7 +41,7 @@ class Admin::SlideshowPicturesController < ApplicationController
   end
 
   private
-  
+
   def slideshow_picture_params
     params.require(:slideshow_picture).permit(:id, :active, :image, :image_cache, :remove_image)
   end

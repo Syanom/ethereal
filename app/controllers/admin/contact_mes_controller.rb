@@ -1,4 +1,5 @@
 class Admin::ContactMesController < ApplicationController
+  http_basic_authenticate_with name: Rails.application.secrets.user, password: Rails.application.secrets.password
   layout 'admin'
 
   def index
