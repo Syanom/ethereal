@@ -1,0 +1,23 @@
+= form_with model: [:admin, @add], local: true, class: 'admin-form' do |f|
+  .add-two-checks
+    .admin-check
+      = f.label :house
+      = f.check_box :house, class: 'check'
+    .admin-check
+      = f.label :flat
+      = f.check_box :flat, class: 'check'
+  
+  .add-two-checks
+    .admin-check
+      = f.label :for_rent
+      = f.check_box :for_rent, class: 'check'
+    .admin-check
+      = f.label :for_sale
+      = f.check_box :for_sale, class: 'check'
+
+  .add-price
+    = f.label :price
+    = f.number_field :price
+  
+  .submit
+    = f.submit t('.submit')

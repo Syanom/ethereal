@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 2023_02_19_184631) do
 
   create_table "adds", force: :cascade do |t|
     t.boolean "flat"
+    t.integer "price"
     t.boolean "house"
     t.boolean "for_sale"
     t.boolean "for_rent"

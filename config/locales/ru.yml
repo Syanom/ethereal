@@ -48,3 +48,6 @@ ru:
         contact_with_whatsapp: Свяжитесь по whatsapp
         contacted: Связались
         delete: Удалить
+    adds:
+      new:
+        submit: Сохранить
