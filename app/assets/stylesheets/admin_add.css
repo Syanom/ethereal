@@ -1,5 +1,11 @@
 .new-add {
   text-align: center;
+  line-height: 20px;
+  margin-bottom: 10px;
+  background-color: #232323;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .add-two-checks {
