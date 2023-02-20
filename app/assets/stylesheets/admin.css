@@ -2,6 +2,15 @@
   display: flex;
 }
 
+.admin-wrap a {
+  color: #d9d9d9;
+}
+
+.admin-wrap textarea {
+  color: #d9d9d9;
+  background-color: #232323;
+}
+
 .admin-menu a {
   color: #d9d9d9;
   margin: 15px;
@@ -61,4 +70,8 @@
 
 .admin-contact-info {
   width: 65%;
+}
+
+.admin-add-form {
+  align-items: baseline;
 }

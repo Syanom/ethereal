@@ -1,2 +1,3 @@
-= link_to t('.new'), new_admin_add_path, class: 'new-add'
-= render @adds
+.admin-adds
+  .add-container.new-add = link_to t('.new'), new_admin_add_path
+  = render @adds

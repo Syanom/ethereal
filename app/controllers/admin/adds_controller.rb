@@ -23,7 +23,7 @@ class Admin::AddsController < AdminController
 
   def update
     @add = Add.find(params[:id])
-    if @add.update(params)
+    if @add.update(add_params)
       redirect_to admin_adds_path
     else
       render :new

@@ -1,22 +1,22 @@
-= form_with model: [:admin, @add], local: true, class: 'admin-form' do |f|
+= form_with model: [:admin, @add], local: true, class: 'admin-add-form' do |f|
   = image_tag @add.main_image.url, class: "admin-form-avatar" if @add.main_image?
   .file
     = f.hidden_field :main_image_cache
     = f.file_field :main_image, class: "admin-form-file"
 
   .add-two-checks.add-field
-    .admin-check
+    .admin-check.add-field
       = f.label :house
       = f.check_box :house, class: 'check'
-    .admin-check
+    .admin-check.add-field
       = f.label :flat
       = f.check_box :flat, class: 'check'
 
   .add-two-checks.add-field
-    .admin-check
+    .admin-check.add-field
       = f.label :for_rent
       = f.check_box :for_rent, class: 'check'
-    .admin-check
+    .admin-check.add-field
       = f.label :for_sale
       = f.check_box :for_sale, class: 'check'
 
@@ -68,7 +68,8 @@
 
   .add-field.add-description
     = f.label :description
-    = f.text_field :description
+  .add-field.add-description
+    = f.text_area :description, cols: '60', rows: '10'
 
   .submit
     = f.submit t('.submit')

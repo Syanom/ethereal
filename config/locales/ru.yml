@@ -13,6 +13,7 @@ ru:
     admin_menu:
       slideshow_pictures: Слайдшоу
       contact_mes: Запросы на звонок
+      adds: Объявления
 
   contact_mes:
     create:
@@ -29,11 +30,26 @@ ru:
         phone_number: Номер телефона
       slideshow_picture:
         active: Слайд активен
+      add:
+        house: Дом 
+        flat: Квартира 
+        for_rent: Аренда 
+        for_sale: Продажа 
+        price: "Цена: "
+        square: "Площадь: "
+        building_age: "Возраст здания: "
+        number_of_floors: "Этаж: "
+        heating: "Отопление: "
+        number_of_bathrooms: "Количество ванных комнат: "
+        furnished: С мебелью 
+        credit_available: Доступно для кредита 
+        video_call_available: Можно посмотреть по видеозвонку 
+        active: Активно 
+        description: "Описание: "
 
   admin:
     slideshow_pictures:
       index:
-        slideshow: Слайдшоу
         create: Добавить
       new:
         submit: Сохранить слайд
@@ -51,3 +67,9 @@ ru:
     adds:
       new:
         submit: Сохранить
+        rooms: "Количество комнат: "
+      add:
+        edit: Изменить
+        delete: Удалить
+      index:
+        new: Создать
