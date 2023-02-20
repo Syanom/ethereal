@@ -19,6 +19,7 @@ class CreateAdd < ActiveRecord::Migration[6.1]
       t.boolean :video_call_available
       t.boolean :active, default: true
       t.text :description
+      t.string :main_image
 
       t.timestamps
     end

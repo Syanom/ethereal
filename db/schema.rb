@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 2023_02_19_184631) do
     t.boolean "video_call_available"
     t.boolean "active", default: true
     t.text "description"
+    t.string "main_image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
