@@ -74,4 +74,6 @@
 
 .admin-add-form {
   align-items: baseline;
+  display: flex;
+  flex-direction: column;
 }

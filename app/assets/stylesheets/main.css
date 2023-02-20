@@ -8,6 +8,8 @@ html {
 
 body {
   color: #d9d9d9;
+  min-width: 1024px;
+  min-height: 720px;
 }
 
 *,
@@ -23,6 +25,7 @@ body {
 .page-wrap {
   min-height: 86vh;
   padding-bottom: 20px;
+  position: relative;
 }
 
 .alert {
@@ -45,6 +48,8 @@ body {
 .comfortable {
   align-self: self-end;
   width: 100%;
+  margin-left: 6vw;
+  margin-bottom: 1vh;
 }
 
 .intro {
@@ -54,13 +59,9 @@ body {
   margin-left: 1vw;
 }
 
-.comfortable {
-  margin-left: 6vw;
-  margin-bottom: 1vh;
-}
-
 .comfortable img {
-  max-width: 23vw;
+  width: 23vw;
+  min-width: 240px;
 }
 
 .text {
@@ -71,4 +72,8 @@ body {
   word-spacing: 4px;
   line-height: 3.5vh;
   font-size: 16px;
+}
+
+.pointer {
+  cursor: pointer;
 }

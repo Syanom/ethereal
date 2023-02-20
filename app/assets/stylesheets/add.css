@@ -1,0 +1,50 @@
+.add-image img {
+  height: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.add-image {
+  height: 100%;
+  margin-right: 3vw;
+}
+
+.add-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-container {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  height: 25vh;
+}
+
+.catalogue {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.add-filter {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  flex-grow: 1;
+  padding: 10px;
+  background-color: #232323;
+}
+
+.adds {
+  width: 70vw;
+  min-width: 800px;
+  margin-right: 5vw;
+}
+
+.add-parameters {
+  margin-right: 10px;
+  line-height: 18px;
+}

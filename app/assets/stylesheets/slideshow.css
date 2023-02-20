@@ -18,27 +18,30 @@
 
 .left-panel {
   position: absolute;
-  top: 80px;
+  top: 0;
   width: 30vw;
-  height: 84%;
+  min-width: 300px;
+  height: 97%;
   background-color: black;
   background-color: rgba(0, 0, 0, .70);
 }
 
 .arrow-left {
   position: absolute;
-  top: 50vh;
-  left: 31vw;
+  top: 40vh;
+  left: 31.3%;
   cursor: pointer;
   width: 4vw;
+  min-width: 40px;
 }
 
 .arrow-right {
   position: absolute;
-  top: 50vh;
+  top: 40vh;
   right: 1vw;
   cursor: pointer;
   width: 4vw;
+  min-width: 40px;
 }
 
 .arrow-left:hover,
