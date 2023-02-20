@@ -1,19 +1,20 @@
 .slide {
   width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: center;
-  height: 84vh;
-  transition: 2s;
 }
 
 .slides {
   display: flex;
-  height: 84vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 
 .slider {
   overflow-x: hidden;
+  height: 84vh;
+  min-height: 600px;
 }
 
 .left-panel {
@@ -28,7 +29,7 @@
 
 .arrow-left {
   position: absolute;
-  top: 40vh;
+  top: 45%;
   left: 31.3%;
   cursor: pointer;
   width: 4vw;
@@ -37,7 +38,7 @@
 
 .arrow-right {
   position: absolute;
-  top: 40vh;
+  top: 45%;
   right: 1vw;
   cursor: pointer;
   width: 4vw;

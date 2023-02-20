@@ -1,11 +1,13 @@
 document.addEventListener('turbolinks:load', function () {
-  document.querySelector('.arrow-left').addEventListener('click', changeSlide)
-  document.querySelector('.arrow-right').addEventListener('click', changeSlide)
-  document.querySelector('.slider').scrollLeft += document.body.clientWidth
-  for (i = 0; i < 100; i++) {
-    window.clearInterval(i);
+  if (document.querySelector('.slider') != null) {
+    document.querySelector('.arrow-left').addEventListener('click', changeSlide)
+    document.querySelector('.arrow-right').addEventListener('click', changeSlide)
+    document.querySelector('.slider').scrollLeft += document.body.clientWidth
+    for (i = 0; i < 100; i++) {
+      window.clearInterval(i);
+    }
+    setInterval(function () { document.querySelector('.arrow-right').click(); }, 4000);
   }
-  setInterval(function () { document.querySelector('.arrow-right').click(); }, 4000);
 })
 
 function changeSlide(e) {

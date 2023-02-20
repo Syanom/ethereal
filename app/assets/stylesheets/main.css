@@ -23,7 +23,7 @@ body {
 }
 
 .page-wrap {
-  min-height: 86vh;
+  min-height: 600px;
   padding-bottom: 20px;
   position: relative;
 }
@@ -70,7 +70,7 @@ body {
   margin-left: 1vw;
   margin-right: 1vw;
   word-spacing: 4px;
-  line-height: 3.5vh;
+  line-height: calc(70% + 16px);
   font-size: 16px;
 }
 
