@@ -1,4 +1,9 @@
 = form_with model: [:admin, @add], local: true, class: 'admin-form' do |f|
+  = image_tag @add.main_image.url, class: "admin-form-avatar" if @add.main_image?
+  .file
+    = f.hidden_field :main_image_cache
+    = f.file_field :main_image, class: "admin-form-file"
+
   .add-two-checks.add-field
     .admin-check
       = f.label :house

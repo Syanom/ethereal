@@ -5,7 +5,11 @@
 
 .left-panel
   .intro = t('.we_will_make_your_life')
-  .comfortable = image_tag t('.comfortable')
+  .comfortable
+    - if File.exists?("#{Rails.root}/app/assets/images/#{t('.comfortable')}")
+      = image_tag t('.comfortable')
+    - else
+      = image_tag 'comfortable_en.png'
   .text = t('.slogan')
 
 = image_tag 'arrow_left.png', class: "arrow-left"

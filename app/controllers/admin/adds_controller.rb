@@ -8,7 +8,7 @@ class Admin::AddsController < AdminController
   end
 
   def create
-    @add = Add.new(params)
+    @add = Add.new(add_params)
     if @add.save
       redirect_to admin_adds_path
     else
@@ -34,5 +34,12 @@ class Admin::AddsController < AdminController
     @add = Add.find(params[:id])
     @add.destroy
     redirect_to admin_adds_path
+  end
+
+  private
+
+  def add_params
+    params.require(:add).permit(:id, :active, :main_image, :main_image_cache, :remove_main_image, :description, :house, :flat,
+                                :for_rent, :for_sale, :price, :square, :rooms, :living_rooms, :building_age, :number_of_floors, :heating, :number_of_bathrooms, :furnished, :credit_available, :video_call_available)
   end
 end
