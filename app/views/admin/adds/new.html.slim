@@ -1,13 +1,13 @@
 = form_with model: [:admin, @add], local: true, class: 'admin-form' do |f|
-  .add-two-checks
+  .add-two-checks.add-field
     .admin-check
       = f.label :house
       = f.check_box :house, class: 'check'
     .admin-check
       = f.label :flat
       = f.check_box :flat, class: 'check'
-  
-  .add-two-checks
+
+  .add-two-checks.add-field
     .admin-check
       = f.label :for_rent
       = f.check_box :for_rent, class: 'check'
@@ -15,9 +15,55 @@
       = f.label :for_sale
       = f.check_box :for_sale, class: 'check'
 
-  .add-price
+  .add-field
     = f.label :price
     = f.number_field :price
   
+  .add-field
+    = f.label :square
+    = f.number_field :square
+
+  .add-field.add-rooms
+    = t('.rooms')
+    = f.number_field :rooms
+    |  + 
+    = f.number_field :living_rooms
+
+  .add-field
+    = f.label :building_age
+    = f.number_field :building_age
+  
+  .add-field
+    = f.label :number_of_floors
+    = f.number_field :number_of_floors
+
+  .add-field
+    = f.label :heating
+    = f.text_field :heating
+
+  .add-field
+    = f.label :number_of_bathrooms
+    = f.number_field :number_of_bathrooms
+
+  .add-field.admin-check
+    = f.label :furnished
+    = f.check_box :furnished, class: 'check'
+
+  .add-field.admin-check
+    = f.label :credit_available
+    = f.check_box :credit_available, class: 'check'
+  
+  .add-field.admin-check
+    = f.label :video_call_available
+    = f.check_box :video_call_available, class: 'check'
+
+  .add-field.admin-check
+    = f.label :active
+    = f.check_box :active, class: 'check'
+
+  .add-field.add-description
+    = f.label :description
+    = f.text_field :description
+
   .submit
     = f.submit t('.submit')

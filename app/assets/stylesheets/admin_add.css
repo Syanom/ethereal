@@ -4,4 +4,18 @@
 
 .add-two-checks {
   display: flex;
+  align-items: center;
+}
+
+.add-field {
+  margin-bottom: 10px;
+}
+
+.add-rooms input {
+  width: 50px;
+}
+
+.add-description input {
+  width: 40vw;
+  height: 20vh;
 }

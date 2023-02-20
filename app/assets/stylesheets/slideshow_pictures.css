@@ -46,6 +46,8 @@
 .admin-check {
   margin: 15px;
   margin-bottom: 0px;
+  display: flex;
+  align-items: center;
 }
 
 .file {
