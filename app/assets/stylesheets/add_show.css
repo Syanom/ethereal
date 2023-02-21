@@ -33,7 +33,7 @@
 }
 
 .add-show-description {
-  background-color: #232323;
+  background-color: #313131;
   padding: 10px;
   border-top: 3px solid #B44857;
 }
@@ -49,11 +49,11 @@
   margin-bottom: 10px;
   flex-grow: 1;
   padding: 20px;
-  background-color: #232323;
+  background-color: #353535;
 }
 
 .add-show-property {
-  background-color: #1d1d1d;
+  background-color: #343434;
   margin: 5px;
   padding: 5px;
 }

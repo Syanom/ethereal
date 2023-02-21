@@ -118,7 +118,7 @@ tr:
         credit_available: Kullanılabilir kredi
         video_call_available: Görüntülü arama mevcut
       index:
-        new: Yaratmak
+        new: Olushtur
     add_images:
       new:
         submit: Kaydetmek
