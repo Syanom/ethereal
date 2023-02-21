@@ -64,8 +64,8 @@ en:
       add:
         house: House 
         flat: Flat 
-        for_rent: Аренда 
-        for_sale: Продажа 
+        for_rent: For rent
+        for_sale: For sale
         price: "Price: "
         square: "Square: "
         building_age: "Building age: "

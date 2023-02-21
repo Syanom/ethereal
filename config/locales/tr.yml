@@ -1,124 +1,124 @@
-en:
+tr:
   main:
     home:
-      slogan: The infrastructure of a five-star hotel and some social privileges for owners allow you to enjoy luxury in the bosom of nature at any time of the year, spend more time with your family and lead a healthy lifestyle on the territory of the complex.
-      we_will_make_your_life: sdasds
+      slogan: Beş yıldızlı bir otelin altyapısı ve sahipler için bazı sosyal ayrıcalıklar, yılın herhangi bir zamanında doğanın koynunda lüksün tadını çıkarmanıza, ailenizle daha fazla zaman geçirmenize ve kompleksin topraklarında sağlıklı bir yaşam tarzı sürmenize olanak tanır.
+      we_will_make_your_life: Hayatınızı yapacağız
       comfortable: comfortable_tr.png
   adds:
     add:
-      house: House
-      flat: Apartments
-      for_rent: For rent
-      for_sale: For sale
-      price: "Price: "
-      rooms: "Number of rooms: "
-      square: "Square: "
-      building_age: "Building age: "
-      number_of_floors: "Floor: "
-      heating: "Heating: "
-      furnished: Furnished
-      credit_available: Credit available
-      video_call_available: Video call available
+      house: Ev
+      flat: Daireler
+      for_rent: Kiralık
+      for_sale: Satılık
+      price: "Fiyat: "
+      rooms: "Oda sayısı: "
+      square: "Kare: "
+      building_age: "Bina yaşı: "
+      number_of_floors: "Zemin: "
+      heating: "Isıtma: "
+      furnished: Eşyalı
+      credit_available: Kullanılabilir kredi
+      video_call_available: Görüntülü arama mevcut
     show:
-      edit: Change
-      delete: Delete
-      house: House
+      edit: Değiştirmek
+      delete: Silmek
+      house: Ev
       flat: Flat
-      for_rent: For rent
-      for_sale: For sale
-      price: "Price: "
-      rooms: "Number of rooms: "
-      square: "Square: "
-      building_age: "Building age: "
-      number_of_floors: "Floor: "
-      heating: "Heating: "
-      furnished: Furnished
-      credit_available: Credit available
-      video_call_available: Video call available
+      for_rent: Kiralık
+      for_sale: Satılık
+      price: "Fiyat: "
+      rooms: "Oda sayısı: "
+      square: "Kare: "
+      building_age: "Bina yaşı: "
+      number_of_floors: "Zemin: "
+      heating: "Isıtma: "
+      furnished: Eşyalı
+      credit_available: Kullanılabilir kredi
+      video_call_available: Görüntülü arama mevcut
   shared:
     nav:
-      home: Home
-      search: Catalogue
-      contact_me: Contact me
-      admin: Admin
+      home: Ana sayfa
+      search: Katalog
+      contact_me: Bana ulaşın
+      admin: Yönetici
     admin_menu:
-      slideshow_pictures: Slideshow
-      contact_mes: Contact requests
-      adds: Adds
+      slideshow_pictures: Slayt gösterisi
+      contact_mes: İletişim istekleri
+      adds: Ekler
 
   contact_mes:
     create:
-      success: We will contact you!
+      success: Sizinle iletişime geçeceğiz!
 
   helpers:
     submit:
       contact_me:
-        create: Contact me!
+        create: Bana ulaşın!
     label:
       contact_me: 
-        contact_with_whatsapp: Contact with whatsapp
+        contact_with_whatsapp: Whatsapp ile iletişim
         email: Email
-        phone_number: Phone number
+        phone_number: Telefon numarası
       slideshow_picture:
-        active: Slide is active
+        active: Slayt etkin
       add:
-        house: House 
+        house: Ev 
         flat: Flat 
-        for_rent: Аренда 
-        for_sale: Продажа 
-        price: "Price: "
-        square: "Square: "
-        building_age: "Building age: "
-        number_of_floors: "Floor: "
-        heating: "Heating: "
-        number_of_bathrooms: "Number of bathrooms: "
-        furnished: Furnished 
-        credit_available: Credit available 
-        video_call_available: Video call available
+        for_rent: Kiralık 
+        for_sale: Satılık 
+        price: "Fiyat: "
+        square: "Kare: "
+        building_age: "Bina yaşı: "
+        number_of_floors: "Zemin: "
+        heating: "Isıtma: "
+        number_of_bathrooms: "Banyo sayısı: "
+        furnished: Eşyalı 
+        credit_available: Kullanılabilir kredi 
+        video_call_available: Görüntülü arama mevcut
         active: Active
-        description: "Description: "
+        description: "Tanım: "
 
   admin:
     slideshow_pictures:
       index:
-        create: Add
+        create: Eklemek
       new:
-        submit: Save slide
+        submit: Slaydı kaydet
       slideshow_picture:
-        active: Slide is active
-        edit: Change
-        delete: Delete
+        active: Slayt etkin
+        edit: Değiştirmek
+        delete: Silmek
     contact_mes:
       contact_me:
         email: "Email: "
-        phone_number: "Phone number: "
-        contact_with_whatsapp: Contact with whatsapp
-        contacted: Contacted
-        delete: Delete
+        phone_number: "Telefon numarası: "
+        contact_with_whatsapp: Whatsapp ile iletişim
+        contacted: İletişime geçildi
+        delete: Silmek
     adds:
       new:
-        submit: Save
-        rooms: "Number of rooms: "
-        new_add_image: Add image
-        delete_add_image: Delete image
+        submit: Kaydetmek
+        rooms: "Oda sayısı: "
+        new_add_image: Resim eklemek
+        delete_add_image: Resmi Sil
       add:
-        edit: Change
-        delete: Delete
-        house: House
-        flat: Flat
-        for_rent: For rent
-        for_sale: For sale
-        price: "Price: "
-        rooms: "Number of rooms: "
-        square: "Square: "
-        building_age: "Building age: "
-        number_of_floors: "Floor: "
-        heating: "Heating: "
-        furnished: Furnished
-        credit_available: Credit available
-        video_call_available: Video call available
+        edit: Değiştirmek
+        delete: Silmek
+        house: Ev
+        flat: Düz
+        for_rent: Kiralık
+        for_sale: Satılık
+        price: "Fiyat: "
+        rooms: "Oda sayısı: "
+        square: "Kare: "
+        building_age: "Bina yaşı: "
+        number_of_floors: "Zemin: "
+        heating: "Isıtma: "
+        furnished: Eşyalı
+        credit_available: Kullanılabilir kredi
+        video_call_available: Görüntülü arama mevcut
       index:
-        new: Create
+        new: Yaratmak
     add_images:
       new:
-        submit: Save
+        submit: Kaydetmek
