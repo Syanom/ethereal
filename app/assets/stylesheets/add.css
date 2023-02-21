@@ -44,6 +44,11 @@
   margin-right: 5vw;
 }
 
+.adds a {
+  color: #d9d9d9;
+  text-decoration: none;
+}
+
 .add-parameters {
   margin-right: 10px;
   line-height: 18px;

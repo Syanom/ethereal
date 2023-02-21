@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   root to: 'main#home'
 
   resources :contact_mes, only: %i[new create]
-  resources :adds, only: :index
+  resources :adds, only: %i[index show]
   resources :admin, only: :index
 
   namespace :admin do
