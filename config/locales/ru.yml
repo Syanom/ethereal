@@ -83,6 +83,8 @@ ru:
       new:
         submit: Сохранить
         rooms: "Количество комнат: "
+        new_add_image: Добавить картинку
+        delete_add_image: Удалить картинку
       add:
         edit: Изменить
         delete: Удалить
@@ -101,3 +103,6 @@ ru:
         video_call_available: Можно посмотреть по видеосвязи
       index:
         new: Создать
+    add_images:
+      new:
+        submit: Сохранить

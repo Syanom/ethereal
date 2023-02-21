@@ -1,8 +1,17 @@
 = form_with model: [:admin, @add], local: true, class: 'admin-add-form' do |f|
-  = image_tag @add.main_image.url, class: "admin-form-avatar" if @add.main_image?
+  = image_tag @add.main_image.url, class: "admin-form-avatar" if @add.main_image.url
+
   .file
     = f.hidden_field :main_image_cache
     = f.file_field :main_image, class: "admin-form-file"
+
+  .admin-add-images
+    - @add.add_images.each do |add_image|
+      .admin-add-image
+        = image_tag add_image.image.url, class: "admin-form-avatar" if add_image.image
+        = link_to t('.delete_add_image'), admin_add_add_image_path(@add, add_image), method: 'delete'
+
+  = link_to t('.new_add_image'), new_admin_add_add_image_path(@add) unless current_page?(new_admin_add_path)
 
   .add-two-checks.add-field
     .admin-check.add-field

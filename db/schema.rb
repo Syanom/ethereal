@@ -17,10 +17,10 @@ ActiveRecord::Schema.define(version: 2023_02_19_184631) do
 
   create_table "add_images", force: :cascade do |t|
     t.string "image"
-    t.bigint "adds_id", null: false
+    t.bigint "add_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["adds_id"], name: "index_add_images_on_adds_id"
+    t.index ["add_id"], name: "index_add_images_on_add_id"
   end
 
   create_table "adds", force: :cascade do |t|
@@ -63,5 +63,5 @@ ActiveRecord::Schema.define(version: 2023_02_19_184631) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  add_foreign_key "add_images", "adds", column: "adds_id"
+  add_foreign_key "add_images", "adds"
 end

@@ -1,5 +1,5 @@
-= form_with model: [:admin, @add_image], local: true, class: 'admin-form' do |f|
-  = image_tag @add_image.image.url, class: "admin-form-avatar" if @slideshow_picture.image?
+= form_with model: [:admin, @add, @add_image], local: true, class: 'admin-form' do |f|
+  = image_tag @add_image.image.url, class: "admin-form-avatar" if @add_image.image?
   .file
     = f.hidden_field :image_cache
     = f.file_field :image, class: "admin-form-file"
