@@ -2,7 +2,7 @@ div class="nav"
   = link_to (root_path) do
     .logo
       = image_tag "logo.png"
-      .title ethereal
+      .title Ethereal
   .nav-links
     - if current_page?(root_path)
       = link_to t('.home'), root_url, class: 'selected'
