@@ -1,9 +1,43 @@
 .add-show-wrap
-  .add-show-images
-    = image_tag @add.main_image.url, class: "add-show-image-active"
-    - unless @add.add_images.empty?
-      .add-show-img-select
-        = image_tag @add.main_image.url, class: "add-show-image"
-        - @add.add_images.each do |add_image|
-          = image_tag add_image.image.url, class: "add-show-image"
-  .add-show-description = @add.description
+  .add-show-top
+    .add-show-images
+      = image_tag @add.main_image.url, class: "add-show-image-active"
+      - unless @add.add_images.empty?
+        .add-show-img-select
+          = image_tag @add.main_image.url, class: "add-show-image"
+          - @add.add_images.each do |add_image|
+            = image_tag add_image.image.url, class: "add-show-image"
+    .add-show-properties
+      - if @add.house
+        .add-show-property
+          = t('.house')
+      - if @add.flat
+        .add-show-property
+          = t('.flat')
+      - if @add.for_sale
+        .add-show-property
+          = t('.for_sale')
+      - if @add.for_rent
+        .add-show-property
+          = t('.for_rent')
+      .add-show-property
+        = t('.price') + @add.price.to_s
+      .add-show-property
+        = t('.rooms') + @add.rooms.to_s + "+" + @add.living_rooms.to_s
+      .add-show-property
+        = t('.square') + @add.square.to_s
+      .add-show-property
+        = t('.building_age') + @add.building_age.to_s
+      .add-show-property
+        = t('.number_of_floors') + @add.number_of_floors.to_s
+      - if @add.furnished
+        .add-show-property
+          = t('.furnished')
+      - if @add.credit_available  
+        .add-show-property
+          = t('.credit_available')
+      - if @add.video_call_available
+        .add-show-property
+          = t('.video_call_available')
+  - if @add.description
+    .add-show-description = @add.description

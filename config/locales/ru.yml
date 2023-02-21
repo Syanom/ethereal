@@ -19,6 +19,22 @@ ru:
       furnished: С мебелью
       credit_available: Можно в кредит
       video_call_available: Можно посмотреть по видеосвязи
+    show:
+      edit: Изменить
+      delete: Удалить
+      house: Дом
+      flat: Квартира
+      for_rent: В аренду
+      for_sale: На продажу
+      price: "Цена: "
+      rooms: "Количество комнат: "
+      square: "Площадь: "
+      building_age: "Возраст здания: "
+      number_of_floors: "Этаж: "
+      heating: "Отопление: "
+      furnished: С мебелью
+      credit_available: Можно в кредит
+      video_call_available: Можно посмотреть по видеосвязи
   shared:
     nav:
       home: Главная

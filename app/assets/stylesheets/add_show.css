@@ -37,3 +37,23 @@
   padding: 10px;
   border-top: 3px solid #B44857;
 }
+
+.add-show-top {
+  display: flex;
+}
+
+.add-show-properties {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #232323;
+}
+
+.add-show-property {
+  background-color: #1d1d1d;
+  margin: 5px;
+  padding: 5px;
+}
