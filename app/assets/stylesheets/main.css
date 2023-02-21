@@ -23,7 +23,7 @@ body {
 }
 
 .page-wrap {
-  min-height: 600px;
+  min-height: max(600px, 85vh);
   padding-bottom: 20px;
   position: relative;
 }
@@ -76,4 +76,9 @@ body {
 
 .pointer {
   cursor: pointer;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #d9d9d9;
 }

@@ -1,33 +1,34 @@
 div class="nav"
-  .logo
-    = image_tag "logo.png"
-    .title ethereal
+  = link_to (root_path) do
+    .logo
+      = image_tag "logo.png"
+      .title ethereal
   .nav-links
     - if current_page?(root_path)
       = link_to t('.home'), root_url, class: 'selected'
       = link_to t('.search'), adds_path
       = link_to t('.contact_me'), new_contact_me_path
-      = link_to t('.admin'), admin_slideshow_pictures_path if session[:authorized]
+      = link_to t('.admin'), admin_contact_mes_path if session[:authorized]
     - elsif current_page?(adds_path)
       = link_to t('.home'), root_url
       = link_to t('.search'), adds_path, class: 'selected'
       = link_to t('.contact_me'), new_contact_me_path
-      = link_to t('.admin'), admin_slideshow_pictures_path if session[:authorized]
+      = link_to t('.admin'), admin_contact_mes_path if session[:authorized]
     - elsif current_page?(new_contact_me_path)
       = link_to t('.home'), root_url
       = link_to t('.search'), adds_path
       = link_to t('.contact_me'), new_contact_me_path, class: 'selected'
-      = link_to t('.admin'), admin_slideshow_pictures_path if session[:authorized]
+      = link_to t('.admin'), admin_contact_mes_path if session[:authorized]
     - elsif request.url.include?('admin')
       = link_to t('.home'), root_url
       = link_to t('.search'), adds_path
       = link_to t('.contact_me'), new_contact_me_path
-      = link_to t('.admin'), admin_slideshow_pictures_path, class: 'selected'
+      = link_to t('.admin'), admin_contact_mes_path, class: 'selected'
     - else
       = link_to t('.home'), root_url
       = link_to t('.search'), adds_path
       = link_to t('.contact_me'), new_contact_me_path
-      = link_to t('.admin'), admin_slideshow_pictures_path if session[:authorized]
+      = link_to t('.admin'), admin_contact_mes_path if session[:authorized]
   .lang
     .current-lang
       | Eng
