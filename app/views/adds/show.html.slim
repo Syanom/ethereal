@@ -1,0 +1,9 @@
+.add-show-wrap
+  .add-show-images
+    = image_tag @add.main_image.url, class: "add-show-image-active"
+    - unless @add.add_images.empty?
+      .add-show-img-select
+        = image_tag @add.main_image.url, class: "add-show-image"
+        - @add.add_images.each do |add_image|
+          = image_tag add_image.image.url, class: "add-show-image"
+  .add-show-description = @add.description

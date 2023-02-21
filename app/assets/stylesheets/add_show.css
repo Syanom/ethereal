@@ -1,0 +1,39 @@
+.add-show-wrap {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.add-show-images {
+  width: 65%;
+  max-width: 65%;
+  margin-bottom: 10px;
+}
+
+.add-show-image-active {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.add-show-image {
+  width: 23%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.add-show-img-select {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.add-show-description {
+  background-color: #232323;
+  padding: 10px;
+  border-top: 3px solid #B44857;
+}

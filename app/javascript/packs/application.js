@@ -10,6 +10,7 @@ import "channels"
 import "../utilities/lang"
 import "../utilities/close"
 import "../utilities/slider"
+import "../utilities/add_show"
 
 Rails.start()
 Turbolinks.start()
