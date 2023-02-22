@@ -22,6 +22,10 @@
   width: 50px;
 }
 
+.admin-add-form input {
+  background-color: #333333;
+}
+
 .admin-adds {
   display: flex;
   flex-direction: column;

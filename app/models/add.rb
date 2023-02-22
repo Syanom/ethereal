@@ -1,5 +1,5 @@
 class Add < ApplicationRecord
-  has_many :add_images
+  has_many :add_images, dependent: :destroy
   mount_uploader :main_image, ImageUploader
   validate :image_present
 

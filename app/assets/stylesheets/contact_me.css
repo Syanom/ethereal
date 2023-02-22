@@ -6,7 +6,6 @@
   background-color: #353535;
   border-radius: 5px;
   padding: 30px;
-  color: #a6a6a6;
 }
 
 .submit {
@@ -27,9 +26,9 @@
 
 input {
   background-color: #3b3b3b;
-  color: #a6a6a6;
   border: 0px solid #B44857;
   border-radius: 3px;
+  color: #d9d9d9;
 }
 
 .submit input {

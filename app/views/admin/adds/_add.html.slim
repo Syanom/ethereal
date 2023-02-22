@@ -26,4 +26,4 @@
     = t('.video_call_available') if add.video_call_available
     .add-links
       = link_to t('.edit'), edit_admin_add_path(add)
-      = link_to t('.delete'), admin_add_path(add), method: :destroy
+      = link_to t('.delete'), admin_add_path(add), method: :delete
