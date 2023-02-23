@@ -59,6 +59,12 @@ en:
       square_net: "m² net: "
       aidat: "₺ dues: "
       elevator: Elevator
+    index:
+      submit: Search
+      for_sale: For sale
+      for_rent: For rent
+      rooms: Rooms
+      price: Price
   shared:
     nav:
       home: Home

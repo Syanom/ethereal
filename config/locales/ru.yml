@@ -59,6 +59,12 @@ ru:
       square_net: "m² нетто: "
       aidat: "₺ плата за содержание территории: "
       elevator: "Есть лифт"
+    index:
+      submit: Искать
+      for_sale: На продажу
+      for_rent: В аренду
+      rooms: Комнаты
+      price: Стоимость
   shared:
     nav:
       home: Главная

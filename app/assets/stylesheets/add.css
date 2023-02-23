@@ -85,3 +85,32 @@
   margin-right: 10px;
   line-height: 18px;
 }
+
+select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: fit-content;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  color: #d9d9d9;
+  line-height: inherit;
+  text-align: center;
+  text-align-last: center;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.select {
+  width: 100%;
+  border-radius: 0.25em;
+  padding: 0.25em 0.25em;
+  text-align: center;
+  cursor: pointer;
+  background-color: #454545;
+}

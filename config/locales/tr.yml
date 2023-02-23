@@ -59,6 +59,12 @@ tr:
       square_net: "m² net: "
       aidat: "₺ aidat: "
       elevator: Asansör
+    index:
+      submit: Aramak
+      for_sale: Satılık
+      for_rent: Kiralık
+      rooms: Odalar
+      price: Fiyat
   shared:
     nav:
       home: Ana sayfa
