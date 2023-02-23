@@ -18,10 +18,9 @@ function handleDropdown() {
 }
 
 function changeLang(e) {
-  let current_location = window.location.href.split('?')[0]
-  let query = new URLSearchParams()
-  query.set("lang", e.target.id)
-  window.location.href = current_location + '?' + query.toString()
+  let url = new URL(window.location)
+  url.searchParams.set("lang", e.target.id)
+  window.location = url
 }
 
 function getCurrentLang() {
