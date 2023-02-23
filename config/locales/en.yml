@@ -10,7 +10,10 @@ en:
       flat: Apartments
       for_rent: For rent
       for_sale: For sale
-      price: "Price: "
+      price_tl: "₺ price: "
+      price_rub: "₽ price: "
+      price_usd: "$ price: "
+      price_eur: "€ price: "
       rooms: "Number of rooms: "
       square: "Square: "
       building_age: "Building age: "
@@ -19,6 +22,10 @@ en:
       furnished: Furnished
       credit_available: Credit available
       video_call_available: Video call available
+      square_brut: "m² gross: "
+      square_net: "m² net: "
+      aidat: "Dues: "
+      elevator: Elevator
     show:
       edit: Change
       delete: Delete
@@ -26,7 +33,10 @@ en:
       flat: Flat
       for_rent: For rent
       for_sale: For sale
-      price: "Price: "
+      price_tl: "₺ price: "
+      price_rub: "₽ price: "
+      price_usd: "$ price: "
+      price_eur: "€ price: "
       rooms: "Number of rooms: "
       square: "Square: "
       building_age: "Building age: "
@@ -35,6 +45,10 @@ en:
       furnished: Furnished
       credit_available: Credit available
       video_call_available: Video call available
+      square_brut: "m² gross: "
+      square_net: "m² net: "
+      aidat: "Dues: "
+      elevator: Elevator
   shared:
     nav:
       home: Home
@@ -66,7 +80,10 @@ en:
         flat: Flat 
         for_rent: For rent
         for_sale: For sale
-        price: "Price: "
+        price_tl: "₺ price: "
+        price_rub: "₽ price: "
+        price_usd: "$ price: "
+        price_eur: "€ price: "
         square: "Square: "
         building_age: "Building age: "
         number_of_floors: "Floor: "
@@ -77,6 +94,10 @@ en:
         video_call_available: Video call available
         active: Active
         description: "Description: "
+        square_brut: "m² gross: "
+        square_net: "m² net: "
+        aidat: "Dues: "
+        elevator: Elevator
 
   admin:
     slideshow_pictures:
@@ -108,7 +129,10 @@ en:
         flat: Flat
         for_rent: For rent
         for_sale: For sale
-        price: "Price: "
+        price_tl: "₺ price: "
+        price_rub: "₽ price: "
+        price_usd: "$ price: "
+        price_eur: "€ price: "
         rooms: "Number of rooms: "
         square: "Square: "
         building_age: "Building age: "
@@ -117,6 +141,10 @@ en:
         furnished: Furnished
         credit_available: Credit available
         video_call_available: Video call available
+        square_brut: "m² gross: "
+        square_net: "m² net: "
+        aidat: "Dues: "
+        elevator: Elevator
       index:
         new: Create
     add_images:

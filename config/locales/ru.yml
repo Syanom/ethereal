@@ -10,7 +10,10 @@ ru:
       flat: Квартира
       for_rent: В аренду
       for_sale: На продажу
-      price: "Цена: "
+      price_tl: "₺ стоимость: "
+      price_rub: "₽ стоимость: "
+      price_usd: "$ стоимость: "
+      price_eur: "€ стоимость: "
       rooms: "Количество комнат: "
       square: "Площадь: "
       building_age: "Возраст здания: "
@@ -19,6 +22,10 @@ ru:
       furnished: С мебелью
       credit_available: Можно в кредит
       video_call_available: Можно посмотреть по видеосвязи
+      square_brut: "m² брутто: "
+      square_net: "m² нетто: "
+      aidat: "Плата за содержание территории: "
+      elevator: "Есть лифт"
     show:
       edit: Изменить
       delete: Удалить
@@ -26,7 +33,10 @@ ru:
       flat: Квартира
       for_rent: В аренду
       for_sale: На продажу
-      price: "Цена: "
+      price_tl: "₺ стоимость: "
+      price_rub: "₽ стоимость: "
+      price_usd: "$ стоимость: "
+      price_eur: "€ стоимость: "
       rooms: "Количество комнат: "
       square: "Площадь: "
       building_age: "Возраст здания: "
@@ -35,6 +45,10 @@ ru:
       furnished: С мебелью
       credit_available: Можно в кредит
       video_call_available: Можно посмотреть по видеосвязи
+      square_brut: "m² брутто: "
+      square_net: "m² нетто: "
+      aidat: "Плата за содержание территории: "
+      elevator: "Есть лифт"
   shared:
     nav:
       home: Главная
@@ -66,7 +80,14 @@ ru:
         flat: Квартира 
         for_rent: Аренда 
         for_sale: Продажа 
-        price: "Цена: "
+        price_tl: "₺ стоимость: "
+        price_rub: "₽ стоимость: "
+        price_usd: "$ стоимость: "
+        price_eur: "€ стоимость: "
+        square_brut: "m² брутто: "
+        square_net: "m² нетто: "
+        aidat: "Плата за содержание территории: "
+        elevator: "Есть лифт"
         square: "Площадь: "
         building_age: "Возраст здания: "
         number_of_floors: "Этаж: "
@@ -108,7 +129,10 @@ ru:
         flat: Квартира
         for_rent: В аренду
         for_sale: На продажу
-        price: "Цена: "
+        price_tl: "₺ стоимость: "
+        price_rub: "₽ стоимость: "
+        price_usd: "$ стоимость: "
+        price_eur: "€ стоимость: "
         rooms: "Количество комнат: "
         square: "Площадь: "
         building_age: "Возраст здания: "
@@ -117,6 +141,10 @@ ru:
         furnished: С мебелью
         credit_available: Можно в кредит
         video_call_available: Можно посмотреть по видеосвязи
+        square_brut: "m² брутто: "
+        square_net: "m² нетто: "
+        aidat: "Плата за содержание территории: "
+        elevator: "Есть лифт"
       index:
         new: Создать
     add_images:

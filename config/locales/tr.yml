@@ -10,7 +10,10 @@ tr:
       flat: Daireler
       for_rent: Kiralık
       for_sale: Satılık
-      price: "Fiyat: "
+      price_tl: "₺ fiyat: "
+      price_rub: "₽ fiyat: "
+      price_usd: "$ fiyat: "
+      price_eur: "€ fiyat: "
       rooms: "Oda sayısı: "
       square: "Kare: "
       building_age: "Bina yaşı: "
@@ -19,6 +22,10 @@ tr:
       furnished: Eşyalı
       credit_available: Kullanılabilir kredi
       video_call_available: Görüntülü arama mevcut
+      square_brut: "m² brüt: "
+      square_net: "m² net: "
+      aidat: "Aidat: "
+      elevator: Asansör
     show:
       edit: Değiştirmek
       delete: Silmek
@@ -26,7 +33,10 @@ tr:
       flat: Flat
       for_rent: Kiralık
       for_sale: Satılık
-      price: "Fiyat: "
+      price_tl: "₺ fiyat: "
+      price_rub: "₽ fiyat: "
+      price_usd: "$ fiyat: "
+      price_eur: "€ fiyat: "
       rooms: "Oda sayısı: "
       square: "Kare: "
       building_age: "Bina yaşı: "
@@ -35,6 +45,10 @@ tr:
       furnished: Eşyalı
       credit_available: Kullanılabilir kredi
       video_call_available: Görüntülü arama mevcut
+      square_brut: "m² brüt: "
+      square_net: "m² net: "
+      aidat: "Aidat: "
+      elevator: Asansör
   shared:
     nav:
       home: Ana sayfa
@@ -66,7 +80,10 @@ tr:
         flat: Flat 
         for_rent: Kiralık 
         for_sale: Satılık 
-        price: "Fiyat: "
+        price_tl: "₺ fiyat: "
+        price_rub: "₽ fiyat: "
+        price_usd: "$ fiyat: "
+        price_eur: "€ fiyat: "
         square: "Kare: "
         building_age: "Bina yaşı: "
         number_of_floors: "Zemin: "
@@ -77,6 +94,10 @@ tr:
         video_call_available: Görüntülü arama mevcut
         active: Active
         description: "Tanım: "
+        square_brut: "m² brüt: "
+        square_net: "m² net: "
+        aidat: "Aidat: "
+        elevator: Asansör
 
   admin:
     slideshow_pictures:
@@ -108,7 +129,10 @@ tr:
         flat: Düz
         for_rent: Kiralık
         for_sale: Satılık
-        price: "Fiyat: "
+        price_tl: "₺ fiyat: "
+        price_rub: "₽ fiyat: "
+        price_usd: "$ fiyat: "
+        price_eur: "€ fiyat: "
         rooms: "Oda sayısı: "
         square: "Kare: "
         building_age: "Bina yaşı: "
@@ -117,6 +141,10 @@ tr:
         furnished: Eşyalı
         credit_available: Kullanılabilir kredi
         video_call_available: Görüntülü arama mevcut
+        square_brut: "m² brüt: "
+        square_net: "m² net: "
+        aidat: "Aidat: "
+        elevator: Asansör
       index:
         new: Olushtur
     add_images:

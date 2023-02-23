@@ -30,7 +30,7 @@
       = f.check_box :for_sale, class: 'check'
 
   .add-field
-    = f.label :price_tl
+    = f.label :price_tl, required: true
     = f.number_field :price_tl
 
   .add-field
@@ -44,6 +44,10 @@
   .add-field
     = f.label :price_eur
     = f.number_field :price_eur
+  
+  .add-field
+    = f.label :aidat
+    = f.number_field :aidat
 
   .add-field
     = f.label :square_brut
