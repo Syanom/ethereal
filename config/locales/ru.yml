@@ -7,6 +7,8 @@ ru:
   adds:
     add:
       house: Дом
+      id: "Номер объявления: "
+      date: "Дата публикации: "
       flat: Квартира
       for_rent: В аренду
       for_sale: На продажу
@@ -14,17 +16,20 @@ ru:
       price_rub: "₽ стоимость: "
       price_usd: "$ стоимость: "
       price_eur: "€ стоимость: "
+      site: Огражденная территория
+      max_floor: "Количество этажей в здании: "
+      number_of_bathrooms: "Количество ванных комнат: "
       rooms: "Количество комнат: "
       square: "Площадь: "
       building_age: "Возраст здания: "
-      number_of_floors: "Этаж: "
+      floor: "Этаж: "
       heating: "Отопление: "
       furnished: С мебелью
       credit_available: Можно в кредит
       video_call_available: Можно посмотреть по видеосвязи
       square_brut: "m² брутто: "
       square_net: "m² нетто: "
-      aidat: "Плата за содержание территории: "
+      aidat: "₺ плата за содержание территории: "
       elevator: "Есть лифт"
     show:
       edit: Изменить
@@ -33,21 +38,26 @@ ru:
       flat: Квартира
       for_rent: В аренду
       for_sale: На продажу
+      id: "Номер объявления: "
+      date: "Дата публикации: "
       price_tl: "₺ стоимость: "
       price_rub: "₽ стоимость: "
       price_usd: "$ стоимость: "
       price_eur: "€ стоимость: "
+      site: Огражденная территория
+      max_floor: "Количество этажей в здании: "
+      number_of_bathrooms: "Количество ванных комнат: "
       rooms: "Количество комнат: "
       square: "Площадь: "
       building_age: "Возраст здания: "
-      number_of_floors: "Этаж: "
+      floor: "Этаж: "
       heating: "Отопление: "
       furnished: С мебелью
       credit_available: Можно в кредит
       video_call_available: Можно посмотреть по видеосвязи
       square_brut: "m² брутто: "
       square_net: "m² нетто: "
-      aidat: "Плата за содержание территории: "
+      aidat: "₺ плата за содержание территории: "
       elevator: "Есть лифт"
   shared:
     nav:
@@ -72,7 +82,7 @@ ru:
       contact_me: 
         contact_with_whatsapp: Пишите в whatsapp
         email: Email
-        phone_number: Номер телефона
+        phone_number: Номер объявления телефона
       slideshow_picture:
         active: Слайд активен
       add:
@@ -80,17 +90,22 @@ ru:
         flat: Квартира 
         for_rent: Аренда 
         for_sale: Продажа 
+        id: "Номер объявления: "
+        date: "Дата публикации: "
         price_tl: "₺ стоимость: "
         price_rub: "₽ стоимость: "
         price_usd: "$ стоимость: "
         price_eur: "€ стоимость: "
+        site: Огражденная территория
+        max_floor: "Количество этажей в здании: "
+        number_of_bathrooms: "Количество ванных комнат: "
         square_brut: "m² брутто: "
         square_net: "m² нетто: "
-        aidat: "Плата за содержание территории: "
+        aidat: "₺ плата за содержание территории: "
         elevator: "Есть лифт"
         square: "Площадь: "
         building_age: "Возраст здания: "
-        number_of_floors: "Этаж: "
+        floor: "Этаж: "
         heating: "Отопление: "
         number_of_bathrooms: "Количество ванных комнат: "
         furnished: С мебелью 
@@ -112,7 +127,7 @@ ru:
     contact_mes:
       contact_me:
         email: "Email: "
-        phone_number: "Номер телефона: "
+        phone_number: "Номер объявления телефона: "
         contact_with_whatsapp: Свяжитесь по whatsapp
         contacted: Связались
         delete: Удалить
@@ -129,21 +144,26 @@ ru:
         flat: Квартира
         for_rent: В аренду
         for_sale: На продажу
+        id: "Номер объявления: "
+        date: "Дата публикации: "
         price_tl: "₺ стоимость: "
         price_rub: "₽ стоимость: "
         price_usd: "$ стоимость: "
         price_eur: "€ стоимость: "
+        site: Огражденная территория
+        max_floor: "Количество этажей в здании: "
+        number_of_bathrooms: "Количество ванных комнат: "
         rooms: "Количество комнат: "
         square: "Площадь: "
         building_age: "Возраст здания: "
-        number_of_floors: "Этаж: "
+        floor: "Этаж: "
         heating: "Отопление: "
         furnished: С мебелью
         credit_available: Можно в кредит
         video_call_available: Можно посмотреть по видеосвязи
         square_brut: "m² брутто: "
         square_net: "m² нетто: "
-        aidat: "Плата за содержание территории: "
+        aidat: "₺ плата за содержание территории: "
         elevator: "Есть лифт"
       index:
         new: Создать

@@ -10,21 +10,26 @@ tr:
       flat: Daireler
       for_rent: Kiralık
       for_sale: Satılık
+      date: "ilan tarihi: "
+      id: "ilan no: "
       price_tl: "₺ fiyat: "
       price_rub: "₽ fiyat: "
       price_usd: "$ fiyat: "
       price_eur: "€ fiyat: "
       rooms: "Oda sayısı: "
+      number_of_bathrooms: "Banyo sayısı: "
       square: "Kare: "
       building_age: "Bina yaşı: "
-      number_of_floors: "Zemin: "
+      floor: "Zemin: "
+      site: Site
+      max_floor: "Binadaki Kat Sayısı: "
       heating: "Isıtma: "
       furnished: Eşyalı
       credit_available: Kullanılabilir kredi
       video_call_available: Görüntülü arama mevcut
       square_brut: "m² brüt: "
       square_net: "m² net: "
-      aidat: "Aidat: "
+      aidat: "₺ aidat: "
       elevator: Asansör
     show:
       edit: Değiştirmek
@@ -33,21 +38,26 @@ tr:
       flat: Flat
       for_rent: Kiralık
       for_sale: Satılık
+      date: "ilan tarihi: "
+      id: "ilan no: "
       price_tl: "₺ fiyat: "
       price_rub: "₽ fiyat: "
       price_usd: "$ fiyat: "
       price_eur: "€ fiyat: "
       rooms: "Oda sayısı: "
+      number_of_bathrooms: "Banyo sayısı: "
       square: "Kare: "
       building_age: "Bina yaşı: "
-      number_of_floors: "Zemin: "
+      floor: "Zemin: "
+      site: Site
+      max_floor: "Binadaki Kat Sayısı: "
       heating: "Isıtma: "
       furnished: Eşyalı
       credit_available: Kullanılabilir kredi
       video_call_available: Görüntülü arama mevcut
       square_brut: "m² brüt: "
       square_net: "m² net: "
-      aidat: "Aidat: "
+      aidat: "₺ aidat: "
       elevator: Asansör
   shared:
     nav:
@@ -69,7 +79,7 @@ tr:
       contact_me:
         create: Bana ulaşın!
     label:
-      contact_me: 
+      contact_me:
         contact_with_whatsapp: Whatsapp ile iletişim
         email: Email
         phone_number: Telefon numarası
@@ -80,13 +90,17 @@ tr:
         flat: Flat 
         for_rent: Kiralık 
         for_sale: Satılık 
+        date: "ilan tarihi: "
+        id: "ilan no: "
         price_tl: "₺ fiyat: "
         price_rub: "₽ fiyat: "
         price_usd: "$ fiyat: "
         price_eur: "€ fiyat: "
         square: "Kare: "
         building_age: "Bina yaşı: "
-        number_of_floors: "Zemin: "
+        floor: "Zemin: "
+        site: Site
+        max_floor: "Binadaki Kat Sayısı: "
         heating: "Isıtma: "
         number_of_bathrooms: "Banyo sayısı: "
         furnished: Eşyalı 
@@ -96,7 +110,7 @@ tr:
         description: "Tanım: "
         square_brut: "m² brüt: "
         square_net: "m² net: "
-        aidat: "Aidat: "
+        aidat: "₺ aidat: "
         elevator: Asansör
 
   admin:
@@ -120,6 +134,7 @@ tr:
       new:
         submit: Kaydetmek
         rooms: "Oda sayısı: "
+        number_of_bathrooms: "Banyo sayısı: "
         new_add_image: Resim eklemek
         delete_add_image: Resmi Sil
       add:
@@ -129,21 +144,26 @@ tr:
         flat: Düz
         for_rent: Kiralık
         for_sale: Satılık
+        date: "ilan tarihi: "
+        id: "ilan no: "
         price_tl: "₺ fiyat: "
         price_rub: "₽ fiyat: "
         price_usd: "$ fiyat: "
         price_eur: "€ fiyat: "
         rooms: "Oda sayısı: "
+        number_of_bathrooms: "Banyo sayısı: "
         square: "Kare: "
         building_age: "Bina yaşı: "
-        number_of_floors: "Zemin: "
+        floor: "Zemin: "
+        site: Site
+        max_floor: "Binadaki Kat Sayısı: "
         heating: "Isıtma: "
         furnished: Eşyalı
         credit_available: Kullanılabilir kredi
         video_call_available: Görüntülü arama mevcut
         square_brut: "m² brüt: "
         square_net: "m² net: "
-        aidat: "Aidat: "
+        aidat: "₺ aidat: "
         elevator: Asansör
       index:
         new: Olushtur

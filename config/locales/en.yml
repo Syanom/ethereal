@@ -6,6 +6,8 @@ en:
       comfortable: comfortable_en.png
   adds:
     add:
+      id: "Ad number: "
+      date: "Date of publication: "
       house: House
       flat: Apartments
       for_rent: For rent
@@ -15,20 +17,25 @@ en:
       price_usd: "$ price: "
       price_eur: "€ price: "
       rooms: "Number of rooms: "
+      number_of_bathrooms: "Number of bathrooms: "
       square: "Square: "
       building_age: "Building age: "
-      number_of_floors: "Floor: "
+      floor: "Floor: "
+      site: Bulding has its own territory
+      max_floor: "Number of floors in the building: "
       heating: "Heating: "
       furnished: Furnished
       credit_available: Credit available
       video_call_available: Video call available
       square_brut: "m² gross: "
       square_net: "m² net: "
-      aidat: "Dues: "
+      aidat: "₺ dues: "
       elevator: Elevator
     show:
       edit: Change
       delete: Delete
+      id: "Ad number: "
+      date: "Date of publication: "
       house: House
       flat: Flat
       for_rent: For rent
@@ -38,16 +45,19 @@ en:
       price_usd: "$ price: "
       price_eur: "€ price: "
       rooms: "Number of rooms: "
+      number_of_bathrooms: "Number of bathrooms: "
       square: "Square: "
       building_age: "Building age: "
-      number_of_floors: "Floor: "
+      floor: "Floor: "
+      site: Bulding has its own territory
+      max_floor: "Number of floors in the building: "
       heating: "Heating: "
       furnished: Furnished
       credit_available: Credit available
       video_call_available: Video call available
       square_brut: "m² gross: "
       square_net: "m² net: "
-      aidat: "Dues: "
+      aidat: "₺ dues: "
       elevator: Elevator
   shared:
     nav:
@@ -77,6 +87,8 @@ en:
         active: Slide is active
       add:
         house: House 
+        id: "Ad number: "
+        date: "Date of publication: "
         flat: Flat 
         for_rent: For rent
         for_sale: For sale
@@ -86,7 +98,9 @@ en:
         price_eur: "€ price: "
         square: "Square: "
         building_age: "Building age: "
-        number_of_floors: "Floor: "
+        floor: "Floor: "
+        site: Bulding has its own territory
+        max_floor: "Number of floors in the building: "
         heating: "Heating: "
         number_of_bathrooms: "Number of bathrooms: "
         furnished: Furnished 
@@ -96,7 +110,7 @@ en:
         description: "Description: "
         square_brut: "m² gross: "
         square_net: "m² net: "
-        aidat: "Dues: "
+        aidat: "₺ dues: "
         elevator: Elevator
 
   admin:
@@ -120,6 +134,7 @@ en:
       new:
         submit: Save
         rooms: "Number of rooms: "
+        number_of_bathrooms: "Number of bathrooms: "
         new_add_image: Add image
         delete_add_image: Delete image
       add:
@@ -128,22 +143,27 @@ en:
         house: House
         flat: Flat
         for_rent: For rent
+        id: "Ad number: "
+        date: "Date of publication: "
         for_sale: For sale
         price_tl: "₺ price: "
         price_rub: "₽ price: "
         price_usd: "$ price: "
         price_eur: "€ price: "
         rooms: "Number of rooms: "
+        number_of_bathrooms: "Number of bathrooms: "
         square: "Square: "
         building_age: "Building age: "
-        number_of_floors: "Floor: "
+        floor: "Floor: "
+        site: Bulding has its own territory
+        max_floor: "Number of floors in the building: "
         heating: "Heating: "
         furnished: Furnished
         credit_available: Credit available
         video_call_available: Video call available
         square_brut: "m² gross: "
         square_net: "m² net: "
-        aidat: "Dues: "
+        aidat: "₺ dues: "
         elevator: Elevator
       index:
         new: Create

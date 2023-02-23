@@ -15,11 +15,12 @@ class CreateAdd < ActiveRecord::Migration[6.1]
       t.integer :living_rooms
       t.integer :building_age
       t.integer :floor
+      t.integer :max_floor
       t.integer :aidat
       t.string :heating
       t.integer :number_of_bathrooms
       t.boolean :furnished
-      t.boolean :cite
+      t.boolean :site
       t.boolean :elevator
       t.boolean :credit_available
       t.boolean :video_call_available

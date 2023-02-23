@@ -49,6 +49,10 @@
     = f.label :aidat
     = f.number_field :aidat
 
+  .admin-check.add-field
+      = f.label :site
+      = f.check_box :site, class: 'check'
+
   .add-field
     = f.label :square_brut
     = f.number_field :square_brut
@@ -70,6 +74,14 @@
   .add-field.admin-check
     = f.label :furnished
     = f.check_box :furnished, class: 'check'
+
+  .add-field
+    = f.label :floor
+    = f.number_field :floor
+  
+  .add-field
+    = f.label :max_floor
+    = f.number_field :max_floor
 
   .admin-check.add-field
     = f.label :elevator

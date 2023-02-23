@@ -8,6 +8,10 @@
           - @add.add_images.each do |add_image|
             = image_tag add_image.image.url, class: "add-show-image"
     .add-show-properties
+      .add-show-property
+        = t('.id') + @add.id.to_s
+      .add-show-property
+        = t('.date') + @add.created_at.strftime("%d.%m.%Y").to_s
       - if @add.house
         .add-show-property
           = t('.house')
@@ -21,15 +25,45 @@
         .add-show-property
           = t('.for_rent')
       .add-show-property
-        = t('.price') + @add.price_tl.to_s
-      .add-show-property
-        = t('.rooms') + @add.rooms.to_s + "+" + @add.living_rooms.to_s
-      .add-show-property
-        = t('.square') + @add.square_brut.to_s
-      .add-show-property
-        = t('.building_age') + @add.building_age.to_s
-      .add-show-property
-        = t('.number_of_floors') + @add.floor.to_s
+        = t('.price_tl') + @add.price_tl.to_s
+      - if @add.price_usd
+        .add-show-property
+          = t('.price_usd') + @add.price_usd.to_s
+      - if @add.price_rub
+        .add-show-property
+          = t('.price_rub') + @add.price_rub.to_s
+      - if @add.price_eur
+        .add-show-property
+          = t('.price_eur') + @add.price_eur.to_s
+      - if @add.aidat
+        .add-show-property
+          = t('.aidat') + @add.aidat.to_s
+      - if @add.site
+        .add-show-property = t('.site')
+      - if @add.rooms
+        .add-show-property
+          = t('.rooms') + @add.rooms.to_s + "+" + @add.living_rooms.to_s
+      - if @add.number_of_bathrooms
+        .add-show-property
+          = t('.number_of_bathrooms') + @add.number_of_bathrooms.to_s
+      - if @add.square_brut
+        .add-show-property
+          = t('.square_brut') + @add.square_brut.to_s
+      - if @add.square_net
+        .add-show-property
+          = t('.square_net') + @add.square_net.to_s
+      - if @add.building_age  
+        .add-show-property
+          = t('.building_age') + @add.building_age.to_s
+      - if @add.max_floor
+        .add-show-property
+          = t('.max_floor') + @add.max_floor.to_s
+      - if @add.floor
+        .add-show-property
+          = t('.floor') + @add.floor.to_s
+      -if @add.elevator
+        .add-show-property
+          = t('.elevator')
       - if @add.furnished
         .add-show-property
           = t('.furnished')
