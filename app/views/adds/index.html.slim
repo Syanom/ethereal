@@ -1,13 +1,21 @@
 .catalogue
-  = form_tag adds_path, method: :get do
-    = t('.for_rent')
-    = check_box_tag :for_rent, true, @search[:for_rent], class: 'check'
-    = t('.for_sale')
-    = check_box_tag :for_sale, true, @search[:for_sale], class: 'check'
-    = t('.rooms')
-    = select_tag :rooms, options_for_select(["", "1+1", "2+1", "3+1", "4+1++"], @search[:rooms])
-    = t('.price')
-    = select_tag :price, options_for_select(["", "↑", "↓"], @search[:price])
-    = button_tag t('.submit'), name: nil
+  .add-filter
+    = form_tag adds_path, method: :get do
+      .filter-options
+        .filter-option
+          .option-name = t('.for_rent')
+          = check_box_tag :for_rent, true, @search[:for_rent], class: 'check'
+        .filter-option
+          .option-name = t('.for_sale')
+          = check_box_tag :for_sale, true, @search[:for_sale], class: 'check'
+        .filter-option
+          .option-name = t('.rooms')
+          = select_tag :rooms, options_for_select(["", "1+1", "2+1", "3+1", "4+1++"], @search[:rooms])
+        .filter-option
+          .option-name = t('.price')
+          = select_tag :price, options_for_select(["", "↑", "↓"], @search[:price])
+      .submit = button_tag t('.submit'), name: nil
+      .hidden
+        = select_tag :lang, options_for_select(["ru", "en", "tr"], params[:lang])
   .adds
     = render @adds

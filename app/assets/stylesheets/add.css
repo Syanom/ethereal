@@ -24,19 +24,50 @@
 
 .catalogue {
   display: flex;
+  flex-direction: column;
   width: 100%;
   margin-top: 10px;
   justify-content: center;
+  align-items: center;
 }
 
 .add-filter {
   display: flex;
   flex-direction: column;
-  margin-left: 5vw;
+  margin-bottom: 10px;
+  width: 70vw;
+  min-width: 800px;
   margin-right: 5vw;
-  flex-grow: 1;
+  border-radius: 4px;
   padding: 10px;
-  background-color: #303030;
+  background-color: #353535;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-filter form {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.filter-options {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.option-name {
+  margin-right: 3px;
 }
 
 .adds {
