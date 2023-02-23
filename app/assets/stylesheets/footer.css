@@ -16,10 +16,23 @@
   margin-right: 15px;
 }
 
+.contact-item a {
+  color: #a6a6a6;
+  display: flex;
+}
+
+.social-media img {
+  filter: brightness(75%);
+}
+
 .footer img {
   height: 20px;
 }
 
 .footer-image {
   margin-right: 5px;
+}
+
+.footer-text a {
+  color: #a6a6a6;
 }

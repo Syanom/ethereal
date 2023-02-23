@@ -6,12 +6,25 @@ footer class="footer"
       .footer-text +90 (324) 358 33 23
     .contact-item
       .footer-image
-        = image_tag "whatsapp.png"
-      .footer-text +90 (533) 024 71 80
-    .contact-item
-      .footer-image
         = image_tag "mail.png"
-      .footer-text etherealestate33@gmail.com
+      .footer-text = mail_to "etherealestate33@gmail.com", "etherealestate33@gmail.com"
+    .contact-item
+      = link_to "https://wa.me/905330247180" do
+        .social-media
+          = image_tag "whatsapp.png"
+        .footer-text +90 (533) 024 71 80
+    .contact-item
+      = link_to  "http://www.t.me/+905330247180" do
+        .social-media
+          = image_tag "telegram.png"
+    .contact-item
+      = link_to  "https://www.instagram.com/etherealgayrimenkul" do
+        .social-media
+          = image_tag "instagram.png"
+    .contact-item
+      = link_to  "https://www.youtube.com/@etherealrealestategayrimenkul" do
+        .social-media
+          = image_tag "youtube.png"
   .location
     .contact-item
       .footer-image
