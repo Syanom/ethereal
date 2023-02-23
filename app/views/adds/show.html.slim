@@ -21,15 +21,15 @@
         .add-show-property
           = t('.for_rent')
       .add-show-property
-        = t('.price') + @add.price.to_s
+        = t('.price') + @add.price_tl.to_s
       .add-show-property
         = t('.rooms') + @add.rooms.to_s + "+" + @add.living_rooms.to_s
       .add-show-property
-        = t('.square') + @add.square.to_s
+        = t('.square') + @add.square_brut.to_s
       .add-show-property
         = t('.building_age') + @add.building_age.to_s
       .add-show-property
-        = t('.number_of_floors') + @add.number_of_floors.to_s
+        = t('.number_of_floors') + @add.floor.to_s
       - if @add.furnished
         .add-show-property
           = t('.furnished')

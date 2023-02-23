@@ -11,7 +11,7 @@
         = image_tag add_image.image.url, class: "admin-form-avatar" if add_image.image
         = link_to t('.delete_add_image'), admin_add_add_image_path(@add, add_image), method: 'delete'
 
-  = link_to t('.new_add_image'), new_admin_add_add_image_path(@add) unless current_page?(new_admin_add_path)
+  = link_to t('.new_add_image'), new_admin_add_add_image_path(@add) if action_name == 'edit'
 
   .add-two-checks.add-field
     .admin-check.add-field
@@ -30,12 +30,28 @@
       = f.check_box :for_sale, class: 'check'
 
   .add-field
-    = f.label :price
-    = f.number_field :price
-  
+    = f.label :price_tl
+    = f.number_field :price_tl
+
   .add-field
-    = f.label :square
-    = f.number_field :square
+    = f.label :price_usd
+    = f.number_field :price_usd
+
+  .add-field
+    = f.label :price_rub
+    = f.number_field :price_rub
+
+  .add-field
+    = f.label :price_eur
+    = f.number_field :price_eur
+
+  .add-field
+    = f.label :square_brut
+    = f.number_field :square_brut
+
+  .add-field
+    = f.label :square_net
+    = f.number_field :square_net
 
   .add-field.add-rooms
     = t('.rooms')
@@ -44,24 +60,24 @@
     = f.number_field :living_rooms
 
   .add-field
-    = f.label :building_age
-    = f.number_field :building_age
-  
-  .add-field
-    = f.label :number_of_floors
-    = f.number_field :number_of_floors
-
-  .add-field
-    = f.label :heating
-    = f.text_field :heating
-
-  .add-field
     = f.label :number_of_bathrooms
     = f.number_field :number_of_bathrooms
 
   .add-field.admin-check
     = f.label :furnished
     = f.check_box :furnished, class: 'check'
+
+  .admin-check.add-field
+    = f.label :elevator
+    = f.check_box :elevator, class: 'check'
+  
+  .add-field
+    = f.label :building_age
+    = f.number_field :building_age
+
+  .add-field
+    = f.label :heating
+    = f.text_field :heating
 
   .add-field.admin-check
     = f.label :credit_available
