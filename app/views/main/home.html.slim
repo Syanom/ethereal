@@ -2,7 +2,7 @@
   div class="slides" style="width: #{@width}"
     - unless @slideshow_pictures.empty?
       - @slideshow_pictures.each_with_index do |picture|
-        = image_tag picture.image.url, class: "slide"
+        = image_tag picture.image.url, class: "slide" if picture
 
 .left-panel
   .intro = t('.we_will_make_your_life')
