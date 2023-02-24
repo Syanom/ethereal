@@ -2,7 +2,7 @@
 lock '~> 3.17.2'
 
 set :application, 'ethereal'
-set :repo_url, 'git@github.com:Syanom/ethereal.git'
+set :repo_url, 'https://github.com/Syanom/ethereal.git'
 
 # Deploy to the user's home directory
 set :deploy_to, "/home/deploy/#{fetch :application}"
