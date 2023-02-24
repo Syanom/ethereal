@@ -1,6 +1,6 @@
 class AdminController < ApplicationController
   layout 'admin'
-  http_basic_authenticate_with name: ENV['ADMIN_LOGIN'], password: ENV['ADMIN_PASSWORD']
+  http_basic_authenticate_with name: Rails.application.secrets.user, password: Rails.application.secrets.password
   before_action :authorize
 
   def index
