@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: ethereal_production
-  username: ethereal
+  database: ethereal
+  username: deploy
   password: <%= ENV['ETHEREAL_DATABASE_PASSWORD'] %>
