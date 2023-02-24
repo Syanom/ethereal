@@ -26,7 +26,7 @@ function changeLang(e) {
 function getCurrentLang() {
   let current_lang = (new URLSearchParams(window.location.search)).get('lang')
   if (current_lang == null) {
-    current_lang = 'ru'
+    current_lang = 'tr'
   }
 
   return current_lang
