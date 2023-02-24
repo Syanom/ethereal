@@ -23,7 +23,7 @@ body {
 }
 
 .page-wrap {
-  min-height: max(600px, 85vh);
+  min-height: 85vh;
   padding-bottom: 20px;
   position: relative;
 }
