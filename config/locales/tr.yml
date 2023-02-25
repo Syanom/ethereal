@@ -106,6 +106,7 @@ tr:
         building_age: "Bina yaşı: "
         floor: "Zemin: "
         site: Site
+        header: Başlık
         max_floor: "Binadaki Kat Sayısı: "
         heating: "Isıtma: "
         number_of_bathrooms: "Banyo sayısı: "

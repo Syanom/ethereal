@@ -13,6 +13,10 @@
 
   = link_to t('.new_add_image'), new_admin_add_add_image_path(@add) if action_name == 'edit'
 
+  .add-field style="margin-top: 20px;"
+    = f.label :header
+    = f.text_field :header
+
   .add-two-checks.add-field
     .admin-check.add-field
       = f.label :house

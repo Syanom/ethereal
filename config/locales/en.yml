@@ -106,6 +106,7 @@ en:
         building_age: "Building age: "
         floor: "Floor: "
         site: Bulding has its own territory
+        header: Header
         max_floor: "Number of floors in the building: "
         heating: "Heating: "
         number_of_bathrooms: "Number of bathrooms: "

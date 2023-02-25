@@ -103,6 +103,7 @@ ru:
         price_usd: "$ стоимость: "
         price_eur: "€ стоимость: "
         site: Огражденная территория
+        header: Заголовок
         max_floor: "Количество этажей в здании: "
         number_of_bathrooms: "Количество ванных комнат: "
         square_brut: "m² брутто: "
