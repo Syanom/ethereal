@@ -110,7 +110,7 @@
   .add-field.add-description
     = f.label :description
   .add-field.add-description
-    = f.text_area :description, cols: '60', rows: '10'
+    = (f.text_area :description, cols: '60', rows: '10').html_safe
 
   .submit
     = f.submit t('.submit')

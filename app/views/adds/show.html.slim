@@ -74,4 +74,4 @@
         .add-show-property
           = t('.video_call_available')
   - if @add.description
-    .add-show-description = @add.description
+    .add-show-description = simple_format(@add.description)
