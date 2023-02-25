@@ -10,6 +10,11 @@
   margin-right: 3vw;
 }
 
+.add-header {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
 .add-links {
   display: flex;
   flex-direction: column;

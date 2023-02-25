@@ -8,6 +8,8 @@
           - @add.add_images.each do |add_image|
             = image_tag add_image.image.url, class: "add-show-image"
     .add-show-properties
+      - if @add.header
+        .add-show-property.add-header = @add.header
       .add-show-property
         = t('.id') + @add.id.to_s
       .add-show-property
