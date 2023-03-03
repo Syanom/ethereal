@@ -58,3 +58,29 @@
   margin: 5px;
   padding: 5px;
 }
+
+.add-arrow-left {
+  position: absolute;
+  top: 21%;
+  left: 5%;
+  width: 60px;
+  cursor: pointer;
+}
+
+.add-arrow-right {
+  position: absolute;
+  top: 21%;
+  left: 56%;
+  width: 60px;
+  cursor: pointer;
+}
+
+.add-arrow-left:hover,
+.add-arrow-right:hover {
+  filter: brightness(200%);
+}
+
+.active-image {
+  border: 3px solid #B44857;
+  border-radius: 5px;
+}

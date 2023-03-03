@@ -1,10 +1,13 @@
 .add-show-wrap
   .add-show-top
     .add-show-images
-      = image_tag @add.main_image.url, class: "add-show-image-active"
+      .chosen-image
+        = image_tag @add.main_image.url, class: "add-show-image-active"
+        = image_tag 'arrow_left.png', class: "add-arrow-left"
+        = image_tag 'arrow_right.png', class: "add-arrow-right"
       - unless @add.add_images.empty?
         .add-show-img-select
-          = image_tag @add.main_image.url, class: "add-show-image"
+          = image_tag @add.main_image.url, class: "add-show-image active-image"
           - @add.add_images.each do |add_image|
             = image_tag add_image.image.url, class: "add-show-image"
     .add-show-properties
