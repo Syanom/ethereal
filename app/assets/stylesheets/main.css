@@ -28,6 +28,11 @@ body {
   position: relative;
 }
 
+.close-intro {
+  position: absolute;
+  right: 5%;
+}
+
 .alert {
   position: absolute;
   top: 30%;

@@ -11,6 +11,8 @@
       = image_tag t('.comfortable')
     - else
       = image_tag 'comfortable_en.png'
+  - if I18n.locale == :tr
+    .close-intro = t('.we_will_make_your_life2')
   .text = t('.slogan')
 
 = image_tag 'arrow_left.png', class: "arrow-left"
