@@ -16,6 +16,6 @@
           = select_tag :price, options_for_select(["", "↑", "↓"], @search[:price]), class: 'select'
       .submit = button_tag t('.submit'), name: nil
       .hidden
-        = select_tag :lang, options_for_select(["ru", "en", "tr"], params[:lang])
+        = select_tag :lang, options_for_select(["tr", "en", "ru"], params[:lang])
   .adds
     = render @adds
