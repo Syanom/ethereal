@@ -32,6 +32,7 @@ ru:
       aidat: "₺ плата за содержание территории: "
       elevator: "Есть лифт"
     show:
+      description: Описание
       edit: Изменить
       delete: Удалить
       house: Дом
