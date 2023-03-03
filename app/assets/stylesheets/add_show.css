@@ -61,16 +61,16 @@
 
 .add-arrow-left {
   position: absolute;
-  top: 21%;
-  left: 5%;
+  top: 48%;
+  left: 2%;
   width: 60px;
   cursor: pointer;
 }
 
 .add-arrow-right {
   position: absolute;
-  top: 21%;
-  left: 56%;
+  top: 48%;
+  right: 2%;
   width: 60px;
   cursor: pointer;
 }
@@ -83,4 +83,8 @@
 .active-image {
   border: 3px solid #B44857;
   border-radius: 5px;
+}
+
+.chosen-image {
+  position: relative;
 }
