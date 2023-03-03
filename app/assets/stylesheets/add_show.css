@@ -8,6 +8,7 @@
 .add-show-images {
   width: 65%;
   max-width: 65%;
+  min-width: 65%;
   margin-bottom: 10px;
 }
 
