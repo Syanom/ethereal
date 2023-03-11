@@ -120,6 +120,8 @@ en:
         square_net: "m² net: "
         aidat: "₺ dues: "
         elevator: Elevator
+      add_image:
+        draw_order: Draw order (number)
 
   admin:
     slideshow_pictures:

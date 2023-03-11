@@ -6,10 +6,12 @@
     = f.file_field :main_image, class: "admin-form-file"
 
   .admin-add-images
-    - @add.add_images.each do |add_image|
+    = f.fields_for :add_images do |fi|
       .admin-add-image
-        = image_tag add_image.image.url, class: "admin-form-avatar" if add_image.image
-        = link_to t('.delete_add_image'), admin_add_add_image_path(@add, add_image), method: 'delete'
+        = image_tag fi.object.image.url, class: "admin-form-avatar" if fi.object.image?
+        = fi.label :draw_order
+        = fi.number_field :draw_order
+        = link_to t('.delete_add_image'), admin_add_add_image_path(@add, fi.object), method: 'delete'
 
   = link_to t('.new_add_image'), new_admin_add_add_image_path(@add) if action_name == 'edit'
 

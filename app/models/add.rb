@@ -3,6 +3,8 @@ class Add < ApplicationRecord
   mount_uploader :main_image, ImageUploader
   validate :image_present
 
+  accepts_nested_attributes_for :add_images
+
   private
 
   def image_present

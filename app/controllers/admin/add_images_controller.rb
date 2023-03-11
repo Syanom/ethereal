@@ -28,6 +28,6 @@ class Admin::AddImagesController < AdminController
   end
 
   def add_image_params
-    params.require(:add_image).permit(:id, :add_id, :image, :image_cache, :remove_image)
+    params.require(:add_image).permit(:id, :add_id, :image, :image_cache, :remove_image, :draw_order, :images_order)
   end
 end

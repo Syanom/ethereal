@@ -121,6 +121,8 @@ ru:
         video_call_available: Можно посмотреть по видеозвонку 
         active: Активно 
         description: "Описание: "
+      add_image:
+        draw_order: Порядок отрисовки (номер)
 
   admin:
     slideshow_pictures:

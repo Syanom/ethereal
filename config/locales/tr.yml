@@ -121,6 +121,8 @@ tr:
         square_net: "m² net: "
         aidat: "₺ aidat: "
         elevator: Asansör
+      add_image:
+        draw_order: Çekiliş sırası (sayı)
 
   admin:
     slideshow_pictures:

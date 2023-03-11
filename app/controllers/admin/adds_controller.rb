@@ -42,6 +42,6 @@ class Admin::AddsController < AdminController
     params.require(:add).permit(:id, :active, :main_image, :main_image_cache, :remove_main_image, :description, :house, :flat,
                                 :for_rent, :for_sale, :price_tl, :price_usd, :price_rub, :price_eur, :square_brut, :square_net,
                                 :rooms, :living_rooms, :building_age, :floor, :max_floor, :heating, :number_of_bathrooms, :furnished,
-                                :credit_available, :video_call_available, :elevator, :site, :header, :aidat)
+                                :credit_available, :video_call_available, :elevator, :site, :header, :aidat, add_images_attributes: %i[id draw_order])
   end
 end

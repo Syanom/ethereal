@@ -2,6 +2,7 @@ class AddImage < ApplicationRecord
   belongs_to :add
   mount_uploader :image, ImageUploader
   validate :image_present
+  default_scope { order(:draw_order) }
 
   private
 

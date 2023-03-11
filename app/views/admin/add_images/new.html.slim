@@ -4,5 +4,9 @@
     = f.hidden_field :image_cache
     = f.file_field :image, class: "admin-form-file"
 
+  .add-field
+    = f.label :draw_order
+    = f.number_field :draw_order
+
   .submit
     = f.submit t('.submit')
