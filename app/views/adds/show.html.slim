@@ -30,19 +30,19 @@
         .add-show-property
           = t('.for_rent')
       .add-show-property
-        = t('.price_tl') + @add.price_tl.to_s
+        = t('.price_tl') + @add.price_tl.to_s.reverse.scan(/.{1,3}/).join(' ').reverse
       - if @add.price_usd
         .add-show-property
-          = t('.price_usd') + @add.price_usd.to_s
+          = t('.price_usd') + @add.price_usd.to_s.reverse.scan(/.{1,3}/).join(' ').reverse
       - if @add.price_rub
         .add-show-property
-          = t('.price_rub') + @add.price_rub.to_s
+          = t('.price_rub') + @add.price_rub.to_s.reverse.scan(/.{1,3}/).join(' ').reverse
       - if @add.price_eur
         .add-show-property
-          = t('.price_eur') + @add.price_eur.to_s
+          = t('.price_eur') + @add.price_eur.to_s.reverse.scan(/.{1,3}/).join(' ').reverse
       - if @add.aidat
         .add-show-property
-          = t('.aidat') + @add.aidat.to_s
+          = t('.aidat') + @add.aidat.to_s.reverse.scan(/.{1,3}/).join(' ').reverse
       - if @add.site
         .add-show-property = t('.site')
       - if @add.rooms

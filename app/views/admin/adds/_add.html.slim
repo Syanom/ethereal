@@ -7,10 +7,10 @@
       = t('.flat') + " | " if add.flat
       = t('.for_sale') + " | " if add.for_sale
       = t('.for_rent') + " | " if add.for_rent
-      = t('.price_tl') + add.price_tl.to_s + " | "
-      = t('.price_usd') + add.price_usd.to_s + " | " if add.price_usd
-      = t('.price_rub') + add.price_rub.to_s + " | " if add.price_rub
-      = t('.price_eur') + add.price_eur.to_s + " | " if add.price_eur
+      = t('.price_tl') + add.price_tl.to_s.reverse.scan(/.{1,3}/).join(' ').reverse + " | "
+      = t('.price_usd') + add.price_usd.to_s.reverse.scan(/.{1,3}/).join(' ').reverse + " | " if add.price_usd
+      = t('.price_rub') + add.price_rub.to_s.reverse.scan(/.{1,3}/).join(' ').reverse + " | " if add.price_rub
+      = t('.price_eur') + add.price_eur.to_s.reverse.scan(/.{1,3}/).join(' ').reverse + " | " if add.price_eur
       = t('.rooms') + add.rooms.to_s + "+" + add.living_rooms.to_s + " | " if add.square_net
       = t('.square_brut') + add.square_brut.to_s + " | " if add.square_brut
       = t('.square_net') + add.square_net.to_s + " | " if add.square_net
