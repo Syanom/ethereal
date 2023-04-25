@@ -18,7 +18,7 @@
 }
 
 .contact-item a {
-  color: #d9d9d9;
+  color: #a6a6a6;
   display: flex;
 }
 
@@ -37,6 +37,7 @@
 .footer-mobile {
   display: flex;
   flex-direction: column;
+  color: #a6a6a6;
 }
 
 .footer-mobile img {
