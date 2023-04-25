@@ -19,16 +19,6 @@ body.desktop {
   min-height: 720px;
 }
 
-html.mobile {
-  min-width: none !important;
-  min-height: none !important;
-}
-
-body.mobile {
-  min-width: none !important;
-  min-height: none !important;
-}
-
 *,
 *::before,
 *::after {

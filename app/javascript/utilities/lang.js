@@ -36,8 +36,7 @@ function closeDropdown(event) {
   if (!event.target.matches('.current-lang')) {
     document.querySelector(".lang-options").classList.add('hidden-space')
   }
-  if (!event.target.matches('.menu-bar') && document.querySelector('.menu-bar' != null)) {
+  if ((!event.target.matches('.menu-bar')) && (document.querySelector('.menu-bar') != null)) {
     document.querySelector(".nav-links-mobile").classList.add("hidden")
-    console.log('closing')
   }
 }
