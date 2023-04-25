@@ -1,9 +1,20 @@
 div class="nav"
   = link_to (root_path) do
-    .logo
+    .logo-mobile
       = image_tag "logo.png"
-      .title = image_tag "title.png"
-  .nav-links
+      .title-mobile = image_tag "title.png"
+  .menus
+    .lang
+      .current-lang
+        | Eng
+      ul class="lang-options hidden-space"
+        li class="lang-option" id="en" En
+        li class="lang-option" id="ru" Ru
+        li class="lang-option" id="tr" Tr
+
+    = image_tag "menu-bar.png", class: 'menu-bar'
+
+  .nav-links-mobile.hidden
     - if current_page?(root_path)
       = link_to t('.home'), root_url, class: 'selected'
       = link_to t('.search'), adds_path
@@ -29,10 +40,3 @@ div class="nav"
       = link_to t('.search'), adds_path
       = link_to t('.contact_me'), new_contact_me_path
       = link_to t('.admin'), admin_contact_mes_path if session[:authorized]
-  .lang
-    .current-lang
-      | Eng
-    ul class="lang-options hidden-space"
-      li class="lang-option" id="en" En
-      li class="lang-option" id="ru" Ru
-      li class="lang-option" id="tr" Tr

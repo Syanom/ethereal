@@ -11,6 +11,7 @@ import "../utilities/lang"
 import "../utilities/close"
 import "../utilities/slider"
 import "../utilities/add_show"
+import "../utilities/nav_mobile"
 
 Rails.start()
 Turbolinks.start()

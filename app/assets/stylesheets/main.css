@@ -2,15 +2,31 @@ html {
   background-color: #3c3c3c;
   box-sizing: border-box;
   font-size: 16px;
-  min-width: 1024px;
-  min-height: 720px;
 }
 
 body {
   color: #d9d9d9;
+  font-family: "Kanit", "Exo2";
+}
+
+html.desktop {
   min-width: 1024px;
   min-height: 720px;
-  font-family: "Kanit", "Exo2";
+}
+
+body.desktop {
+  min-width: 1024px;
+  min-height: 720px;
+}
+
+html.mobile {
+  min-width: none !important;
+  min-height: none !important;
+}
+
+body.mobile {
+  min-width: none !important;
+  min-height: none !important;
 }
 
 *,

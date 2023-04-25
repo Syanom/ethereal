@@ -14,7 +14,7 @@ function setCurrentLanguage() {
 }
 
 function handleDropdown() {
-  document.querySelector(".lang-options").classList.toggle("hidden")
+  document.querySelector(".lang-options").classList.toggle("hidden-space")
 }
 
 function changeLang(e) {
@@ -34,9 +34,10 @@ function getCurrentLang() {
 
 function closeDropdown(event) {
   if (!event.target.matches('.current-lang')) {
-    langSelect = document.querySelector(".lang-options")
-    if (!(langSelect.classList.contains('hidden'))) {
-      langSelect.classList.add('hidden');
-    }
+    document.querySelector(".lang-options").classList.add('hidden-space')
+  }
+  if (!event.target.matches('.menu-bar') && document.querySelector('.menu-bar' != null)) {
+    document.querySelector(".nav-links-mobile").classList.add("hidden")
+    console.log('closing')
   }
 }
