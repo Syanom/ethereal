@@ -10,6 +10,17 @@
   margin-right: 3vw;
 }
 
+.add-image-mobile {
+  width: 100%;
+}
+
+.add-image-mobile img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 .add-header {
   margin-bottom: 10px;
   font-size: 22px;
@@ -25,6 +36,19 @@
   align-items: center;
   border-radius: 4px;
   height: 25vh;
+}
+
+.add-container-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 2vh;
+  line-height: 130%;
+  width: 100%;
+  background-color: #353535;
+  padding: 5px;
+  text-align: center;
 }
 
 .catalogue {
@@ -57,11 +81,30 @@
   width: 100%;
 }
 
+.add-filter-mobile {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 2vh;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #353535;
+}
+
 .filter-options {
   width: 70%;
   display: flex;
   align-items: center;
   justify-content: left;
+}
+
+.filter-option-mobile {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 1vh;
 }
 
 .filter-option {
@@ -71,8 +114,12 @@
   margin-right: 20px;
 }
 
-.option-name {
-  margin-right: 3px;
+.option-name-mobile {
+  width: 50%;
+}
+
+.option-value-mobile {
+  width: 50%;
 }
 
 .adds {
@@ -81,7 +128,17 @@
   margin-right: 5vw;
 }
 
+.adds-mobile {
+  width: 100%;
+  align-items: center;
+}
+
 .adds a {
+  color: #d9d9d9;
+  text-decoration: none;
+}
+
+.adds-mobile a {
   color: #d9d9d9;
   text-decoration: none;
 }
@@ -112,7 +169,7 @@ select::-ms-expand {
 }
 
 .select {
-  width: 100%;
+  width: 40px;
   border-radius: 0.25em;
   padding: 0.25em 0.25em;
   text-align: center;

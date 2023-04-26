@@ -1,0 +1,24 @@
+= link_to (add), target: "_blank" do
+  .add-container-mobile
+    .add-image-mobile = image_tag add.main_image.url
+    .add-parameters-mobile
+      .add-header = add.header if add.header
+      .other-parameters
+        = t('.house') + " | " if add.house
+        = t('.flat') + " | " if add.flat
+        = t('.for_sale') + " | " if add.for_sale
+        = t('.for_rent') + " | " if add.for_rent
+        = t('.price_tl') + add.price_tl.to_s.reverse.scan(/.{1,3}/).join(' ').reverse + " | "
+        = t('.price_usd') + add.price_usd.to_s.reverse.scan(/.{1,3}/).join(' ').reverse + " | " if add.price_usd
+        = t('.price_rub') + add.price_rub.to_s.reverse.scan(/.{1,3}/).join(' ').reverse + " | " if add.price_rub
+        = t('.price_eur') + add.price_eur.to_s.reverse.scan(/.{1,3}/).join(' ').reverse + " | " if add.price_eur
+        = t('.rooms') + add.rooms.to_s + "+" + add.living_rooms.to_s + " | " if add.square_net
+        = t('.square_brut') + add.square_brut.to_s + " | " if add.square_brut
+        = t('.square_net') + add.square_net.to_s + " | " if add.square_net
+        = t('.building_age') + add.building_age.to_s + " | " if add.building_age
+        = t('.floor') + add.floor.to_s + " | " if add.floor
+        = t('.elevator') + ' | ' if add.elevator
+        = t('.furnished') + " | " if add.furnished
+        =  add.heating + " | " if add.heating
+        = t('.credit_available') + " | " if add.credit_available
+        = t('.video_call_available') if add.video_call_available
