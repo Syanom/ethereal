@@ -3,10 +3,12 @@ document.addEventListener('turbolinks:load', function () {
     window.clearInterval(i);
   }
   if (document.querySelector('.slider') != null) {
-    document.querySelector('.arrow-left').addEventListener('click', changeSlide)
-    document.querySelector('.arrow-right').addEventListener('click', changeSlide)
+    if (document.querySelector('.arrow-left') != null) {
+      document.querySelector('.arrow-left').addEventListener('click', changeSlide)
+      document.querySelector('.arrow-right').addEventListener('click', changeSlide)
+    }
     document.querySelector('.slider').scrollLeft += document.body.clientWidth
-    setInterval(function () { document.querySelector('.arrow-right').click(); }, 4000);
+    setInterval(function () { changeSlide(); }, 4000);
   }
 })
 
@@ -14,7 +16,7 @@ function changeSlide(e) {
   slider = document.querySelector('.slider')
   if (slider.classList.contains('scrolling')) return
   slider.classList.add('scrolling')
-  let offset = e.target.classList.contains('arrow-left') ? -1 : 1
+  let offset = e != null && e.target.classList.contains('arrow-left') ? -1 : 1
   let slides = document.querySelector('.slides')
   slides.parentElement.scrollTo({
     top: 0,
