@@ -1,5 +1,5 @@
 document.addEventListener('turbolinks:load', function () {
-  if (document.querySelector('.add-show-wrap') != null) {
+  if ((document.querySelector('.add-show-wrap') != null) || (document.querySelector('.add-show-top-mobile') != null)) {
     document.querySelectorAll(".add-show-image").forEach(btn => {
       btn.addEventListener('click', changeMain)
     });
