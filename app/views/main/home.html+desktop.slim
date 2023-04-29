@@ -15,5 +15,6 @@
     .close-intro = t('.we_will_make_your_life2')
   .text = t('.slogan')
 
-= image_tag 'arrow_left.png', class: "arrow-left"
-= image_tag 'arrow_right.png', class: "arrow-right"
+- if @slideshow_pictures.count > 2
+  = image_tag 'arrow_left.png', class: "arrow-left"
+  = image_tag 'arrow_right.png', class: "arrow-right"
